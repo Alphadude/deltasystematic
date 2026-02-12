@@ -25,7 +25,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-8">
-              Pioneering <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">Scientific</span> Solutions
+              Pioneering <span className="text-secondary">Scientific</span> Solutions
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               Building a sustainable future through data-driven environmental consulting and advanced GIS technology.
@@ -177,10 +177,10 @@ export default function About() {
           <div className="flex flex-wrap justify-center gap-6">
             {partners.map((partner) => (
               <span 
-                key={partner}
+                key={partner.name}
                 className="px-8 py-4 bg-muted/50 border border-border/50 rounded-2xl font-bold text-foreground/70 hover:text-primary hover:bg-primary/5 hover:border-primary/30 transition-all cursor-default"
               >
-                {partner}
+                {partner.name}
               </span>
             ))}
           </div>

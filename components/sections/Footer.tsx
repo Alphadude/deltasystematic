@@ -12,9 +12,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="space-y-8">
             <Link href="/" className="flex items-center">
-              <div className="w-64 h-28 relative flex items-center justify-center -ml-4">
+              <div className="w-64 h-31 relative flex items-center justify-center -ml-4">
                 <Image 
-                  src="/logo.webp" 
+                  src="/logo-transparent.png" 
                   alt="Delta Systematics Logo" 
                   fill 
                   className="object-contain"

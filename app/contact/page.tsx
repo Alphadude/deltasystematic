@@ -76,7 +76,7 @@ export default function ContactPage() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-8">
-              Connect <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">With Us</span>
+              Connect <span className="text-secondary">With Us</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Ready to transform your environmental challenges into strategic advantages? Our experts are here to help you navigate the landscape of GIS and sustainability.

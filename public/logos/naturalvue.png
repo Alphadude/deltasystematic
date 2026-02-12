@@ -1,0 +1,1024 @@
+<!DOCTYPE html><html lang="en-US"><head >	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name='robots' content='noindex, follow' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5JBJS88');</script>
+<!-- End Google Tag Manager -->
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v24.6 (Yoast SEO v26.9) - https://yoast.com/product/yoast-seo-premium-wordpress/ -->
+	<title>Page not found - VTI Vision</title>
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:title" content="Page not found - VTI Vision" />
+	<meta property="og:site_name" content="VTI Vision" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://vtivision.com/#website","url":"https://vtivision.com/","name":"VTI Vision","description":"Visioneering Technologies, Inc. 2024","publisher":{"@id":"https://vtivision.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://vtivision.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://vtivision.com/#organization","name":"Visioneering Technologies, Inc.","url":"https://vtivision.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://vtivision.com/#/schema/logo/image/","url":"https://vtivision.com/wp-content/uploads/2020/03/VTI_Header_Logo.png","contentUrl":"https://vtivision.com/wp-content/uploads/2020/03/VTI_Header_Logo.png","width":209,"height":52,"caption":"Visioneering Technologies, Inc."},"image":{"@id":"https://vtivision.com/#/schema/logo/image/"},"sameAs":["http://facebook.com/vtivision/","https://x.com/vtivision","https://www.linkedin.com/company/visioneering-technologies-inc."]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.elementor.com' />
+<link rel="alternate" type="application/rss+xml" title="VTI Vision &raquo; Feed" href="https://vtivision.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="VTI Vision &raquo; Comments Feed" href="https://vtivision.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/vtivision.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.35.4' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://vtivision.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='coblocks-frontend-css' href='https://vtivision.com/wp-content/plugins/coblocks/dist/style-coblocks-1.css?ver=3.1.16' type='text/css' media='all' />
+<link rel='stylesheet' id='coblocks-extensions-css' href='https://vtivision.com/wp-content/plugins/coblocks/dist/style-coblocks-extensions.css?ver=3.1.16' type='text/css' media='all' />
+<link rel='stylesheet' id='coblocks-animation-css' href='https://vtivision.com/wp-content/plugins/coblocks/dist/style-coblocks-animation.css?ver=2677611078ee87eb3b1c' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wp-components-css' href='https://vtivision.com/wp-includes/css/dist/components/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='godaddy-styles-css' href='https://vtivision.com/wp-content/plugins/coblocks/includes/Dependencies/GoDaddy/Styles/build/latest.css?ver=2.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ea11y-widget-fonts-css' href='https://vtivision.com/wp-content/plugins/pojo-accessibility/assets/build/fonts.css?ver=3.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ea11y-skip-link-css' href='https://vtivision.com/wp-content/plugins/pojo-accessibility/assets/build/skip-link.css?ver=3.9.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jupiterx-popups-animation-css' href='https://vtivision.com/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/animate/animate.min.css?ver=4.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jupiterx-css' href='https://vtivision.com/wp-content/uploads/jupiterx/compiler/jupiterx/f90dc87.css?ver=4.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-menu-public-styles-css' href='https://vtivision.com/wp-content/plugins/jet-menu/assets/public/css/public.css?ver=2.4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-popup-frontend-css' href='https://vtivision.com/wp-content/plugins/jet-popup/assets/css/jet-popup-frontend.css?ver=2.0.20' type='text/css' media='all' />
+<link rel='stylesheet' id='jupiterx-elements-dynamic-styles-css' href='https://vtivision.com/wp-content/uploads/jupiterx/compiler/jupiterx-elements-dynamic-styles/3dc206f.css?ver=4.12.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jupiterx-core-raven-frontend-css' href='https://vtivision.com/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/css/frontend.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-57024-css' href='https://vtivision.com/wp-content/uploads/elementor/css/post-57024.css?ver=1770809667' type='text/css' media='all' />
+<link rel='stylesheet' id='flatpickr-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.6.13' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-57252-css' href='https://vtivision.com/wp-content/uploads/elementor/css/post-57252.css?ver=1770809667' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-57274-css' href='https://vtivision.com/wp-content/uploads/elementor/css/post-57274.css?ver=1770809667' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-poppins-css' href='https://vtivision.com/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1742294054' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://vtivision.com/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1742294055' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://vtivision.com/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1742294059' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-bonheurroyale-css' href='https://vtivision.com/wp-content/uploads/elementor/google-fonts/css/bonheurroyale.css?ver=1742294059' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' type='text/css' media='all' />
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.35.4" id="font-awesome-4-shim-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/themes/jupiterx/lib/admin/assets/lib/webfont/webfont.min.js?ver=1.6.26" id="jupiterx-webfont-js"></script>
+<script type="text/javascript" id="jupiterx-webfont-js-after">
+/* <![CDATA[ */
+WebFont.load({
+				google: {
+					families: ['Poppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic']
+				}
+			});
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/themes/jupiterx/lib/assets/dist/js/utils.min.js?ver=4.12.0" id="jupiterx-utils-js"></script>
+<link rel="https://api.w.org/" href="https://vtivision.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://vtivision.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<meta name="generator" content="Elementor 3.35.4; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://vtivision.com/wp-content/uploads/2024/02/favicon-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://vtivision.com/wp-content/uploads/2024/02/favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://vtivision.com/wp-content/uploads/2024/02/favicon.png" />
+<meta name="msapplication-TileImage" content="https://vtivision.com/wp-content/uploads/2024/02/favicon.png" />
+</head><body data-rsssl=1 class="error404 wp-theme-jupiterx no-js ally-default jet-mega-menu-location elementor-default elementor-kit-57024" itemscope="itemscope" itemtype="http://schema.org/WebPage">		<script>
+			const onSkipLinkClick = () => {
+				const htmlElement = document.querySelector('html');
+
+				htmlElement.style['scroll-behavior'] = 'smooth';
+
+				setTimeout( () => htmlElement.style['scroll-behavior'] = null, 1000 );
+			}
+			document.addEventListener("DOMContentLoaded", () => {
+				if (!document.querySelector('#content')) {
+					document.querySelector('.ea11y-skip-to-content-link').remove();
+				}
+			});
+		</script>
+		<nav aria-label="Skip to content navigation">
+			<a class="ea11y-skip-to-content-link"
+				href="#content"
+				tabindex="1"
+				onclick="onSkipLinkClick()"
+			>
+				Skip to content
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="presentation">
+					<path d="M18 6V12C18 12.7956 17.6839 13.5587 17.1213 14.1213C16.5587 14.6839 15.7956 15 15 15H5M5 15L9 11M5 15L9 19"
+								stroke="black"
+								stroke-width="1.5"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+					/>
+				</svg>
+			</a>
+			<div class="ea11y-skip-to-content-backdrop"></div>
+		</nav>
+
+		<a class="jupiterx-a11y jupiterx-a11y-skip-navigation-link" href="#jupiterx-main">Skip to content</a><div class="jupiterx-site"><header class="jupiterx-header jupiterx-header-custom" data-jupiterx-settings="{&quot;breakpoint&quot;:&quot;767.98&quot;,&quot;template&quot;:&quot;57252&quot;,&quot;behavior&quot;:&quot;&quot;}" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">		<div data-elementor-type="header" data-elementor-id="57252" class="elementor elementor-57252">
+				<div class="elementor-element elementor-element-68b7131f e-flex e-con-boxed e-con e-parent" data-id="68b7131f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7d9de122 e-con-full e-flex e-con e-child" data-id="7d9de122" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				</div>
+		<div class="elementor-element elementor-element-aa9dd8e e-con-full e-flex e-con e-child" data-id="aa9dd8e" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-718d7d6b elementor-widget__width-inherit elementor-widget elementor-widget-jet-mega-menu" data-id="718d7d6b" data-element_type="widget" data-e-type="widget" data-widget_type="jet-mega-menu.default">
+				<div class="elementor-widget-container">
+					<div class="jet-mega-menu jet-mega-menu--layout-horizontal jet-mega-menu--sub-position-left jet-mega-menu--dropdown-layout-default jet-mega-menu--dropdown-position-center jet-mega-menu--animation-none jet-mega-menu--location-elementor    jet-mega-menu--fill-svg-icons" data-settings='{"menuId":"57","menuUniqId":"698e11ef1af83","rollUp":false,"megaAjaxLoad":false,"layout":"horizontal","subEvent":"hover","mouseLeaveDelay":500,"subTrigger":"item","subPosition":"left","megaWidthType":"container","megaWidthSelector":"","breakpoint":0}'><div class="jet-mega-menu-toggle" role="button" tabindex="0" aria-label="Open/Close Menu"><div class="jet-mega-menu-toggle-icon jet-mega-menu-toggle-icon--default-state"><i class="fas fa-bars"></i></div><div class="jet-mega-menu-toggle-icon jet-mega-menu-toggle-icon--opened-state"><i class="fas fa-times"></i></div></div><nav class="jet-mega-menu-container" aria-label="Main nav"><ul class="jet-mega-menu-list"><li id="jet-mega-menu-item-60270" class="jet-mega-menu-item jet-mega-menu-item-type-custom jet-mega-menu-item-object-custom jet-mega-menu-item-has-children jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-60270"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="Patient"><a href="https://vtivision.com/patient/" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Patient</div></div></a><div class="jet-mega-menu-item__dropdown"><i class="fas fa-angle-down"></i></div></div>
+<div class='jet-mega-menu-sub-menu'><ul  class="jet-mega-menu-sub-menu__list">
+	<li id="jet-mega-menu-item-60271" class="jet-mega-menu-item jet-mega-menu-item-type-custom jet-mega-menu-item-object-custom jet-mega-menu-item--default jet-mega-menu-item--sub-level jet-mega-menu-item-60271"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="Investor"><a href="https://vtivision.com/investor/" class="jet-mega-menu-item__link jet-mega-menu-item__link--sub-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Investor</div></div></a></div></li>
+	<li id="jet-mega-menu-item-60269" class="jet-mega-menu-item jet-mega-menu-item-type-custom jet-mega-menu-item-object-custom jet-mega-menu-item--default jet-mega-menu-item--sub-level jet-mega-menu-item-60269"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="Patient"><a href="https://vtivision.com/patient/" class="jet-mega-menu-item__link jet-mega-menu-item__link--sub-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Patient</div></div></a></div></li>
+	<li id="jet-mega-menu-item-60268" class="jet-mega-menu-item jet-mega-menu-item-type-custom jet-mega-menu-item-object-custom jet-mega-menu-item--default jet-mega-menu-item--sub-level jet-mega-menu-item-60268"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="Practitioner"><a href="https://vtivision.com/practitioner/" class="jet-mega-menu-item__link jet-mega-menu-item__link--sub-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Practitioner</div></div></a></div></li>
+</ul></div>
+</li>
+<li id="jet-mega-menu-item-60272" class="jet-mega-menu-item jet-mega-menu-item-type-custom jet-mega-menu-item-object-custom jet-mega-menu-item--mega jet-mega-menu-item-has-children jet-mega-menu-item--top-level jet-mega-menu-item-60272"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="Country"><a href="#" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Country</div></div></a><div class="jet-mega-menu-item__dropdown"><i class="fas fa-angle-down"></i></div></div><div class="jet-mega-menu-mega-container" data-template-id="60299" data-template-content="elementor" data-position="default"><div class="jet-mega-menu-mega-container__inner"><style>.elementor-60299 .elementor-element.elementor-element-7760cf91{--display:flex;--flex-direction:row;--container-widget-width:initial;--container-widget-height:100%;--container-widget-flex-grow:1;--container-widget-align-self:stretch;--flex-wrap-mobile:wrap;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--padding-top:22px;--padding-bottom:22px;--padding-left:22px;--padding-right:22px;}.elementor-60299 .elementor-element.elementor-element-7760cf91:not(.elementor-motion-effects-element-type-background), .elementor-60299 .elementor-element.elementor-element-7760cf91 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-d0f4be2 );}.elementor-60299 .elementor-element.elementor-element-3b5146c9{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-60299 .elementor-element.elementor-element-e7b0ea2 .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:600;color:var( --e-global-color-73dae1b );}.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after{border-color:var( --e-global-color-text );}.elementor-widget-icon-list .elementor-icon-list-icon i{color:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-icon svg{fill:var( --e-global-color-primary );}.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );line-height:var( --e-global-typography-text-line-height );}.elementor-widget-icon-list .elementor-icon-list-text{color:var( --e-global-color-secondary );}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-item:not(:last-child):after{content:"";border-color:#DDDDDD69;}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after{border-block-start-style:solid;border-block-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-style:solid;}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-icon i{color:var( --e-global-color-c1fa124 );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-icon svg{fill:var( --e-global-color-c1fa124 );transition:fill 0.3s;}.elementor-60299 .elementor-element.elementor-element-47f91b22{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-item > a{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:400;text-transform:uppercase;}.elementor-60299 .elementor-element.elementor-element-47f91b22 .elementor-icon-list-text{color:var( --e-global-color-73dae1b );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-41470c78{--spacer-size:10px;}.elementor-60299 .elementor-element.elementor-element-160edc9a{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-60299 .elementor-element.elementor-element-5fb2d008 .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:600;color:var( --e-global-color-73dae1b );}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-item:not(:last-child):after{content:"";border-color:#DDDDDD69;}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after{border-block-start-style:solid;border-block-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-style:solid;}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-icon i{color:var( --e-global-color-c1fa124 );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-icon svg{fill:var( --e-global-color-c1fa124 );transition:fill 0.3s;}.elementor-60299 .elementor-element.elementor-element-72c9772f{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-item > a{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:400;text-transform:uppercase;}.elementor-60299 .elementor-element.elementor-element-72c9772f .elementor-icon-list-text{color:var( --e-global-color-73dae1b );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-5135f373{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-60299 .elementor-element.elementor-element-46ae2269 .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:600;color:var( --e-global-color-73dae1b );}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-item:not(:last-child):after{content:"";border-color:#DDDDDD69;}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after{border-block-start-style:solid;border-block-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-style:solid;}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-icon i{color:var( --e-global-color-c1fa124 );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-icon svg{fill:var( --e-global-color-c1fa124 );transition:fill 0.3s;}.elementor-60299 .elementor-element.elementor-element-1c499ee4{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-item > a{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:400;text-transform:uppercase;}.elementor-60299 .elementor-element.elementor-element-1c499ee4 .elementor-icon-list-text{color:var( --e-global-color-73dae1b );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-467717 .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:600;color:var( --e-global-color-73dae1b );}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-item:not(:last-child):after{content:"";border-color:#DDDDDD69;}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after{border-block-start-style:solid;border-block-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-style:solid;}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-icon i{color:var( --e-global-color-c1fa124 );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-icon svg{fill:var( --e-global-color-c1fa124 );transition:fill 0.3s;}.elementor-60299 .elementor-element.elementor-element-47040d9c{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-item > .elementor-icon-list-text, .elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-item > a{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:400;text-transform:uppercase;}.elementor-60299 .elementor-element.elementor-element-47040d9c .elementor-icon-list-text{color:var( --e-global-color-73dae1b );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-6cdb8381{--display:flex;}.elementor-60299 .elementor-element.elementor-element-4d01659f .elementor-heading-title{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:600;color:var( --e-global-color-73dae1b );}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child){padding-block-end:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child){margin-block-start:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item{margin-inline:calc(11px/2);}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-items.elementor-inline-items{margin-inline:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after{inset-inline-end:calc(-11px/2);}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-item:not(:last-child):after{content:"";border-color:#DDDDDD69;}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child):after{border-block-start-style:solid;border-block-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-style:solid;}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-inline-items .elementor-icon-list-item:not(:last-child):after{border-inline-start-width:1px;}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-icon i{color:var( --e-global-color-c1fa124 );transition:color 0.3s;}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-icon svg{fill:var( --e-global-color-c1fa124 );transition:fill 0.3s;}.elementor-60299 .elementor-element.elementor-element-5319ebd{--e-icon-list-icon-size:14px;--icon-vertical-offset:0px;}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-item > .elementor-icon-list-text, .elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-item > a{font-family:"Poppins", Sans-serif;font-size:14px;font-weight:400;text-transform:uppercase;}.elementor-60299 .elementor-element.elementor-element-5319ebd .elementor-icon-list-text{color:var( --e-global-color-73dae1b );transition:color 0.3s;}@media(min-width:768px){.elementor-60299 .elementor-element.elementor-element-7760cf91{--content-width:1019px;}.elementor-60299 .elementor-element.elementor-element-3b5146c9{--content-width:100%;}.elementor-60299 .elementor-element.elementor-element-160edc9a{--width:100%;}.elementor-60299 .elementor-element.elementor-element-5135f373{--width:100%;}}@media(max-width:1024px){.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}}@media(max-width:767px){.elementor-widget-icon-list .elementor-icon-list-item > .elementor-icon-list-text, .elementor-widget-icon-list .elementor-icon-list-item > a{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}}/* Start JX Custom Fonts CSS *//* End JX Custom Fonts CSS */</style>		<div data-elementor-type="wp-post" data-elementor-id="60299" class="elementor elementor-60299">
+				<div class="elementor-element elementor-element-7760cf91 e-flex e-con-boxed e-con e-parent" data-id="7760cf91" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-3b5146c9 e-flex e-con-boxed e-con e-child" data-id="3b5146c9" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-e7b0ea2 elementor-widget elementor-widget-heading" data-id="e7b0ea2" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">North America (NA)
+</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-47f91b22 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="47f91b22" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">United States</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Canada</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-41470c78 elementor-widget elementor-widget-spacer" data-id="41470c78" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-160edc9a e-con-full e-flex e-con e-child" data-id="160edc9a" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-5fb2d008 elementor-widget elementor-widget-heading" data-id="5fb2d008" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Europe/Middle East (EMEA)
+</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-72c9772f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="72c9772f" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Austria</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Belgium | Vlaams | Wallonië</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Cyprus</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Danmark (Denmark)</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">España (Spain)</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Finland Suomi (Finland)</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Germany</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Greece</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Italy</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Jordan</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Lebanon</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Norge (Norway)</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Oman</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Portugal</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Spain</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Sverige (Sweden)</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Switzerland</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">United Kingdom (incl. Ireland, Scotland)</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5135f373 e-con-full e-flex e-con e-child" data-id="5135f373" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-46ae2269 elementor-widget elementor-widget-heading" data-id="46ae2269" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Asia Pacific (APAC)
+</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1c499ee4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="1c499ee4" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/practitioner/anz">
+
+											<span class="elementor-icon-list-text">Australia</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/practitioner/asia">
+
+											<span class="elementor-icon-list-text">Hong Kong香港 (Hong Kong) | English | 中文</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/practitioner/asia">
+
+											<span class="elementor-icon-list-text">Malaysia</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/practitioner/anz">
+
+											<span class="elementor-icon-list-text">New Zealand Aotearoa (New Zealand)</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/practitioner/asia">
+
+											<span class="elementor-icon-list-text">Singapore</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/practitioner/asia">
+
+											<span class="elementor-icon-list-text">Vietnam</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-467717 elementor-widget elementor-widget-heading" data-id="467717" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Coming Soon</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-47040d9c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="47040d9c" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Korea</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6cdb8381 e-con-full e-flex e-con e-child" data-id="6cdb8381" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-4d01659f elementor-widget elementor-widget-heading" data-id="4d01659f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Latin America (LATAM) </h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5319ebd elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5319ebd" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://global.vtivision.com/patient/">
+
+											<span class="elementor-icon-list-text">Various Countries</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		</div></div></li>
+</ul></nav></div>				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-783fa1b e-flex e-con-boxed e-con e-parent" data-id="783fa1b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-c128c05 e-con-full e-flex e-con e-child" data-id="c128c05" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-4c20022e elementor-widget elementor-widget-image" data-id="4c20022e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://vtivision.com/patient">
+							<img width="209" height="52" src="https://vtivision.com/wp-content/uploads/2020/03/VTI_Header_Logo.png" class="attachment-full size-full wp-image-52" alt="VTI Logo" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-fe08bf1 e-con-full e-flex e-con e-child" data-id="fe08bf1" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-5c43f31a raven-breakpoint-tablet raven-nav-menu-align-right elementor-widget elementor-widget-raven-nav-menu" data-id="5c43f31a" data-element_type="widget" data-e-type="widget" data-settings="{&quot;mobile_layout&quot;:&quot;side&quot;,&quot;submenu_icon&quot;:&quot;&lt;svg 0=\&quot;fas fa-chevron-down\&quot; class=\&quot;e-font-icon-svg e-fas-chevron-down\&quot;&gt;\n\t\t\t\t\t&lt;use xlink:href=\&quot;#fas-chevron-down\&quot;&gt;\n\t\t\t\t\t\t&lt;symbol id=\&quot;fas-chevron-down\&quot; viewBox=\&quot;0 0 448 512\&quot;&gt;\n\t\t\t\t\t\t\t&lt;path d=\&quot;M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z\&quot;&gt;&lt;\/path&gt;\n\t\t\t\t\t\t&lt;\/symbol&gt;\n\t\t\t\t\t&lt;\/use&gt;\n\t\t\t\t&lt;\/svg&gt;&quot;,&quot;side_menu_effect&quot;:&quot;overlay&quot;,&quot;submenu_space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;submenu_opening_position&quot;:&quot;bottom&quot;,&quot;side_menu_alignment&quot;:&quot;left&quot;}" data-widget_type="raven-nav-menu.default">
+				<div class="elementor-widget-container">
+							<nav class="raven-nav-menu-main raven-nav-menu-horizontal raven-nav-menu-tablet- raven-nav-menu-mobile- raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile">
+			<ul id="menu-5c43f31a" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28560"><a href="https://vtivision.com/patient/myopia/" class="raven-menu-item raven-link-item ">Myopia Patient</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3255"><a href="https://vtivision.com/patient/products/" class="raven-menu-item raven-link-item ">Products Patient</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3102"><a href="https://vtivision.com/patient/find-a-doctor/" class="raven-menu-item raven-link-item ">Find a doctor</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://vtivision.com/patient/about/" class="raven-menu-item raven-link-item ">About Patient</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38430"><a href="https://vtivision.com/patient/contact-vti/" class="raven-menu-item raven-link-item ">Contact</a></li>
+</ul>		</nav>
+
+		<div class="raven-nav-menu-toggle">
+
+						<div class="raven-nav-menu-toggle-button ">
+								<span class="fa fa-bars"></span>
+								</div>
+
+		</div>
+		<nav class="raven-nav-icons-hidden-tablet raven-nav-icons-hidden-mobile raven-nav-menu-mobile raven-nav-menu-side">
+										<div class="raven-nav-menu-close-button">
+					<span class="raven-nav-menu-close-icon">&times;</span>
+				</div>
+						<div class="raven-container">
+				<ul id="menu-mobile-5c43f31a" class="raven-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28560"><a href="https://vtivision.com/patient/myopia/" class="raven-menu-item raven-link-item ">Myopia Patient</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3255"><a href="https://vtivision.com/patient/products/" class="raven-menu-item raven-link-item ">Products Patient</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3102"><a href="https://vtivision.com/patient/find-a-doctor/" class="raven-menu-item raven-link-item ">Find a doctor</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://vtivision.com/patient/about/" class="raven-menu-item raven-link-item ">About Patient</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38430"><a href="https://vtivision.com/patient/contact-vti/" class="raven-menu-item raven-link-item ">Contact</a></li>
+</ul>			</div>
+		</nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-93d1ac1 e-con-full e-flex e-con e-child" data-id="93d1ac1" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-b64a642 elementor-widget elementor-widget-raven-search-form" data-id="b64a642" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_skin&quot;:&quot;classic&quot;}" data-widget_type="raven-search-form.classic">
+				<div class="elementor-widget-container">
+							<form class="raven-search-form raven-search-form-classic" method="get" action="https://vtivision.com/" role="search">
+			<div class="raven-search-form-container">
+				<div class="raven-search-form-inner">
+					<label class="elementor-screen-only" for="raven-search-form-input">Search</label>
+					<input id="raven-search-form-input" class="raven-search-form-input" type="search" name="s" placeholder="Search..." />
+																		<button class="raven-search-form-button raven-search-form-button-svg" type="submit" aria-label="Search">
+									<i class="fas fa-search"></i>								</button>
+																	</div>
+			</div>
+		</form>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		</header><main id="jupiterx-main" class="jupiterx-main"><div class="jupiterx-main-content"><div class="container"><div class="row"><div id="jupiterx-primary" class="jupiterx-primary col-lg-12"><div class="jupiterx-content" role="main" itemprop="mainEntityOfPage"><article class="jupiterx-no-article jupiterx-post"><header class="jupiterx-post-header"></header><header ><h1 class="jupiterx-post-title">Whoops, no result found!</h1></header><div ><div class="jupiterx-post-content"><p >It looks like nothing was found at this location. Try a new search?</p><form class="jupiterx-search-form form-inline" method="get" action="https://vtivision.com/" role="search"><input class="form-control" type="search" placeholder="Search" value="" name="s"/><button class="btn jupiterx-icon-search-1"></button></form></div></div></article></div></div></div></div></div></main><footer class="jupiterx-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">		<div data-elementor-type="footer" data-elementor-id="57274" class="elementor elementor-57274">
+				<div class="elementor-element elementor-element-54d36e3 e-flex e-con-boxed e-con e-parent" data-id="54d36e3" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-b19cf9f elementor-widget elementor-widget-text-editor" data-id="b19cf9f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p class="x_MsoNormal"><b><span data-olk-copy-source="MessageBody">NATURALVUE® ENHANCED MULTIFOCAL INDICATIONS FOR USE</span></b><br />NaturalVue® (etafilcon A) Enhanced Multifocal 1 Day Contact Lenses are indicated for daily wear for the correction of refractive ametropia (myopia and hyperopia), and/or presbyopia in normal eyes. The lenses may be worn by persons who exhibit astigmatism of 2.00 diopters or less that does not interfere with visual acuity. </p><p><b><span data-olk-copy-source="MessageBody">NATURALVUE® ENHANCED SPHERE INDICATIONS FOR USE</span></b><br />NaturalVue® (etafilcon A) Enhanced Sphere 1 Day Contact Lenses are indicated for daily wear for the correction of refractive ametropia (myopia and hyperopia) in normal eyes.</p>								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b9aa29c e-con-full e-flex e-con e-parent" data-id="b9aa29c" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-7156aa0 e-con-full e-flex e-con e-child" data-id="7156aa0" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-522bdd4 elementor-widget elementor-widget-image" data-id="522bdd4" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://vtivision.com/">
+							<img width="130" height="111" src="https://vtivision.com/wp-content/uploads/2020/04/footerLogo.png" class="attachment-full size-full wp-image-802" alt="VTI Logo" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2cf4dbf e-con-full e-flex e-con e-child" data-id="2cf4dbf" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-3368581 elementor-widget elementor-widget-text-editor" data-id="3368581" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="color: #ffffff;"><strong>Visioneering Technologies, Inc.</strong></span><br /><span style="color: #ffffff;">1-844-VTI-LENS | 1-844-884-5367 x 116</span><br /><span style="color: #ffffff;"><a style="color: #ffffff;" href="mailto:info@vtivision.com">info@vtivision.com</a></span></p><p><span style="color: #ffffff;"><strong>Technical Consultation:</strong></span><br /><span style="color: #ffffff;">1-844-884-5367 x 102   |   <a style="color: #ffffff;" href="mailto:technicalconsultation@vtivision.com">technicalconsultation@vtivision.com</a></span></p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5c2f1e8 e-con-full e-flex e-con e-child" data-id="5c2f1e8" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-cfe070a e-grid-align-right e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="cfe070a" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-22ce7d5" href="https://twitter.com/vtivision?lang=en" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<i aria-hidden="true" class="fab fa-twitter"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-54ad206" href="https://www.linkedin.com/company/visioneering-technologies-inc." target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i aria-hidden="true" class="fab fa-linkedin"></i>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-square elementor-repeater-item-46208ef" href="http://facebook.com/vtivision/" target="_blank">
+						<span class="elementor-screen-only">Facebook-square</span>
+						<i aria-hidden="true" class="fab fa-facebook-square"></i>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-81053ca elementor-widget elementor-widget-text-editor" data-id="81053ca" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><a href="https://global.vtivision.com/practitioner/contact/"><span style="color: #ffffff;">Contact</span></a> | <span style="color: #ffffff;"><a style="color: #ffffff;" href="https://global.vtivision.com/practitioner/report-concern/">Report a concern</a></span></p>								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-60a2300 e-con-full e-flex e-con e-parent" data-id="60a2300" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-435b544 e-con-full e-flex e-con e-child" data-id="435b544" data-element_type="container" data-e-type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-a8ce6b2 elementor-icon-list--layout-inline elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a8ce6b2" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/recruitment-fraud/">
+
+											<span class="elementor-icon-list-text">Recruitment Fraud</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/terms-of-use/">
+
+											<span class="elementor-icon-list-text">Terms of use</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/privacy-policy/">
+
+											<span class="elementor-icon-list-text">Privacy policy</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/business-policies/">
+
+											<span class="elementor-icon-list-text">Business policies</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/fair-balance-statement/">
+
+											<span class="elementor-icon-list-text">Fair balance statement</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/patents/">
+
+											<span class="elementor-icon-list-text">Patents</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/references/">
+
+											<span class="elementor-icon-list-text">References</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://vtivision.com/practitioner/regulatory-documents/">
+
+											<span class="elementor-icon-list-text">Regulatory documents</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-15774e3 elementor-widget elementor-widget-text-editor" data-id="15774e3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>VTI makes no representation that materials or other content on our site are appropriate or available for use outside the United States, its territories, possessions and protectorates. If you choose to access our site from other locations you do so on your own initiative and at your own risk. You are responsible for complying with local laws, if and to the extent local laws are applicable. You specifically agree to comply with all applicable laws concerning the transmission of technical data exported from the United States to the country you reside in.<br />© 2024 Visioneering Technologies, Inc. MKT-VTI-DMC 8</p>								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		</footer><div class="jupiterx-corner-buttons" data-jupiterx-scroll="{&quot;offset&quot;:1000}"><button class="jupiterx-scroll-top jupiterx-icon-angle-up" data-jupiterx-scroll-target="0" aria-label="Scroll to top"></button></div></div><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/jupiterx\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JBJS88"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+			<script>
+				const registerAllyAction = () => {
+					if ( ! window?.elementorAppConfig?.hasPro || ! window?.elementorFrontend?.utils?.urlActions ) {
+						return;
+					}
+
+					elementorFrontend.utils.urlActions.addAction( 'allyWidget:open', () => {
+						if ( window?.ea11yWidget?.widget?.open ) {
+							window.ea11yWidget.widget.open();
+						}
+					} );
+				};
+
+				const waitingLimit = 30;
+				let retryCounter = 0;
+
+				const waitForElementorPro = () => {
+					return new Promise( ( resolve ) => {
+						const intervalId = setInterval( () => {
+							if ( retryCounter === waitingLimit ) {
+								resolve( null );
+							}
+
+							retryCounter++;
+
+							if ( window.elementorFrontend && window?.elementorFrontend?.utils?.urlActions ) {
+								clearInterval( intervalId );
+								resolve( window.elementorFrontend );
+							}
+								}, 100 ); // Check every 100 milliseconds for availability of elementorFrontend
+					});
+				};
+
+				waitForElementorPro().then( () => { registerAllyAction(); });
+			</script>
+								<script type="text/x-template" id="mobile-menu-item-template"><li
+	:id="'jet-mobile-menu-item-'+itemDataObject.itemId"
+	:class="itemClasses"
+>
+	<div
+		class="jet-mobile-menu__item-inner"
+		tabindex="0"
+		:aria-label="itemDataObject.name"
+        aria-expanded="false"
+		v-on:click="itemSubHandler"
+		v-on:keyup.enter="itemSubHandler"
+	>
+		<a
+			:class="itemLinkClasses"
+			:href="itemDataObject.url"
+			:rel="itemDataObject.xfn"
+			:title="itemDataObject.attrTitle"
+			:target="itemDataObject.target"
+		>
+			<div class="jet-menu-item-wrapper">
+				<div
+					class="jet-menu-icon"
+					v-if="isIconVisible"
+					v-html="itemIconHtml"
+				></div>
+				<div class="jet-menu-name">
+					<span
+						class="jet-menu-label"
+						v-if="isLabelVisible"
+						v-html="itemDataObject.name"
+					></span>
+					<small
+						class="jet-menu-desc"
+						v-if="isDescVisible"
+						v-html="itemDataObject.description"
+					></small>
+				</div>
+				<div
+					class="jet-menu-badge"
+					v-if="isBadgeVisible"
+				>
+					<div class="jet-menu-badge__inner" v-html="itemDataObject.badgeContent"></div>
+				</div>
+			</div>
+		</a>
+		<span
+			class="jet-dropdown-arrow"
+			v-if="isSub && !templateLoadStatus"
+			v-html="dropdownIconHtml"
+			v-on:click="markerSubHandler"
+		>
+		</span>
+		<div
+			class="jet-mobile-menu__template-loader"
+			v-if="templateLoadStatus"
+		>
+			<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="24px" height="25px" viewBox="0 0 128 128" xml:space="preserve">
+				<g>
+					<linearGradient id="linear-gradient">
+						<stop offset="0%" :stop-color="loaderColor" stop-opacity="0"/>
+						<stop offset="100%" :stop-color="loaderColor" stop-opacity="1"/>
+					</linearGradient>
+				<path d="M63.85 0A63.85 63.85 0 1 1 0 63.85 63.85 63.85 0 0 1 63.85 0zm.65 19.5a44 44 0 1 1-44 44 44 44 0 0 1 44-44z" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+				<animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1080ms" repeatCount="indefinite"></animateTransform>
+				</g>
+			</svg>
+		</div>
+	</div>
+
+	<transition name="menu-container-expand-animation">
+		<mobile-menu-list
+			v-if="isDropdownLayout && subDropdownVisible"
+			:depth="depth+1"
+			:children-object="itemDataObject.children"
+		></mobile-menu-list>
+	</transition>
+
+</li>
+					</script>					<script type="text/x-template" id="mobile-menu-list-template"><div
+	class="jet-mobile-menu__list"
+	role="navigation"
+>
+	<ul class="jet-mobile-menu__items">
+		<mobile-menu-item
+			v-for="(item, index) in childrenObject"
+			:key="item.id"
+			:item-data-object="item"
+			:depth="depth"
+		></mobile-menu-item>
+	</ul>
+</div>
+					</script>					<script type="text/x-template" id="mobile-menu-template"><div
+	:class="instanceClass"
+	v-on:keyup.esc="escapeKeyHandler"
+>
+	<div
+		class="jet-mobile-menu__toggle"
+		role="button"
+		ref="toggle"
+		tabindex="0"
+		aria-label="Open/Close Menu"
+        aria-expanded="false"
+		v-on:click="menuToggle"
+		v-on:keyup.enter="menuToggle"
+	>
+		<div
+			class="jet-mobile-menu__template-loader"
+			v-if="toggleLoaderVisible"
+		>
+			<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="24px" height="25px" viewBox="0 0 128 128" xml:space="preserve">
+				<g>
+					<linearGradient id="linear-gradient">
+						<stop offset="0%" :stop-color="loaderColor" stop-opacity="0"/>
+						<stop offset="100%" :stop-color="loaderColor" stop-opacity="1"/>
+					</linearGradient>
+				<path d="M63.85 0A63.85 63.85 0 1 1 0 63.85 63.85 63.85 0 0 1 63.85 0zm.65 19.5a44 44 0 1 1-44 44 44 44 0 0 1 44-44z" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+				<animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1080ms" repeatCount="indefinite"></animateTransform>
+				</g>
+			</svg>
+		</div>
+
+		<div
+			class="jet-mobile-menu__toggle-icon"
+			v-if="!menuOpen && !toggleLoaderVisible"
+			v-html="toggleClosedIcon"
+		></div>
+		<div
+			class="jet-mobile-menu__toggle-icon"
+			v-if="menuOpen && !toggleLoaderVisible"
+			v-html="toggleOpenedIcon"
+		></div>
+		<span
+			class="jet-mobile-menu__toggle-text"
+			v-if="toggleText"
+			v-html="toggleText"
+		></span>
+
+	</div>
+
+	<transition name="cover-animation">
+		<div
+			class="jet-mobile-menu-cover"
+			v-if="menuContainerVisible && coverVisible"
+			v-on:click="closeMenu"
+		></div>
+	</transition>
+
+	<transition :name="showAnimation">
+		<div
+			class="jet-mobile-menu__container"
+			v-if="menuContainerVisible"
+		>
+			<div
+				class="jet-mobile-menu__container-inner"
+			>
+				<div
+					class="jet-mobile-menu__header-template"
+					v-if="headerTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__header-template-content"
+						ref="header-template-content"
+						v-html="headerContent"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__controls"
+				>
+					<div
+						class="jet-mobile-menu__breadcrumbs"
+						v-if="isBreadcrumbs"
+					>
+						<div
+							class="jet-mobile-menu__breadcrumb"
+							v-for="(item, index) in breadcrumbsPathData"
+							:key="index"
+						>
+							<div
+								class="breadcrumb-label"
+								v-on:click="breadcrumbHandle(index+1)"
+								v-html="item"
+							></div>
+							<div
+								class="breadcrumb-divider"
+								v-html="breadcrumbIcon"
+								v-if="(breadcrumbIcon && index !== breadcrumbsPathData.length-1)"
+							></div>
+						</div>
+					</div>
+					<div
+						class="jet-mobile-menu__back"
+						role="button"
+						ref="back"
+						tabindex="0"
+						aria-label="Close Menu"
+                        aria-expanded="false"
+						v-if="!isBack && isClose"
+						v-html="closeIcon"
+						v-on:click="menuToggle"
+						v-on:keyup.enter="menuToggle"
+					></div>
+					<div
+						class="jet-mobile-menu__back"
+						role="button"
+						ref="back"
+						tabindex="0"
+						aria-label="Back to Prev Items"
+                        aria-expanded="false"
+						v-if="isBack"
+						v-html="backIcon"
+						v-on:click="goBack"
+						v-on:keyup.enter="goBack"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__before-template"
+					v-if="beforeTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__before-template-content"
+						ref="before-template-content"
+						v-html="beforeContent"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__body"
+				>
+					<transition :name="animation">
+						<mobile-menu-list
+							v-if="!templateVisible"
+							:key="depth"
+							:depth="depth"
+							:children-object="itemsList"
+						></mobile-menu-list>
+						<div
+							class="jet-mobile-menu__template"
+							ref="template-content"
+							v-if="templateVisible"
+						>
+							<div
+								class="jet-mobile-menu__template-content"
+								v-html="itemTemplateContent"
+							></div>
+						</div>
+					</transition>
+				</div>
+
+				<div
+					class="jet-mobile-menu__after-template"
+					v-if="afterTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__after-template-content"
+						ref="after-template-content"
+						v-html="afterContent"
+					></div>
+				</div>
+
+			</div>
+		</div>
+	</transition>
+</div>
+					</script>			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel='stylesheet' id='elementor-post-60299-css' href='https://vtivision.com/wp-content/uploads/elementor/css/post-60299.css?ver=1770809667' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-spacer-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='https://vtivision.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.35.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jet-elements-css' href='https://vtivision.com/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.7.12.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=3.1.16" id="coblocks-animation-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/coblocks/dist/js/vendors/tiny-swiper.js?ver=3.1.16" id="coblocks-tiny-swiper-js"></script>
+<script type="text/javascript" id="coblocks-tinyswiper-initializer-js-extra">
+/* <![CDATA[ */
+var coblocksTinyswiper = {"carouselPrevButtonAriaLabel":"Previous","carouselNextButtonAriaLabel":"Next","sliderImageAriaLabel":"Image"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/coblocks/dist/js/coblocks-tinyswiper-initializer.js?ver=3.1.16" id="coblocks-tinyswiper-initializer-js"></script>
+<script type="text/javascript" id="ea11y-widget-js-extra">
+/* <![CDATA[ */
+var ea11yWidget = {"iconSettings":{"style":{"icon":"person","size":"medium","color":"#1c4199","cornerRadius":{"radius":32,"unit":"px"}},"position":{"desktop":{"hidden":false,"enableExactPosition":false,"exactPosition":{"horizontal":{"direction":"right","value":10,"unit":"px"},"vertical":{"direction":"bottom","value":10,"unit":"px"}},"position":"bottom-left"},"mobile":{"hidden":false,"enableExactPosition":false,"exactPosition":{"horizontal":{"direction":"right","value":10,"unit":"px"},"vertical":{"direction":"bottom","value":10,"unit":"px"}},"position":"bottom-right"}}},"toolsSettings":{"bigger-text":{"enabled":true},"bigger-line-height":{"enabled":true},"text-align":{"enabled":true},"readable-font":{"enabled":true},"grayscale":{"enabled":true},"contrast":{"enabled":true},"page-structure":{"enabled":true},"sitemap":{"enabled":false,"url":"https:\/\/vtivision.com\/wp-sitemap.xml"},"reading-mask":{"enabled":true},"hide-images":{"enabled":true},"pause-animations":{"enabled":true},"highlight-links":{"enabled":true},"focus-outline":{"enabled":true},"screen-reader":{"enabled":false},"remove-elementor-label":{"enabled":false}},"accessibilityStatementURL":"","analytics":{"enabled":false,"url":null}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn.elementor.com/a11y/widget.js?api_key=ea11y-46064b94-2fe8-4cfa-b7d0-027f486fb940&amp;ver=3.9.0" id="ea11y-widget-js"referrerPolicy="origin"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jupiterx-core/includes/woocommerce/wc-quick-view.js?ver=4.12.0" id="jupiterx-wc-quickview-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" id="jupiterx-js-extra">
+/* <![CDATA[ */
+var jupiterxOptions = {"smoothScroll":"1","videMedia":"0","quantityFieldSwitch":"undefined"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/themes/jupiterx/lib/assets/dist/js/frontend.min.js?ver=4.12.0" id="jupiterx-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-menu/assets/public/lib/vue/vue.min.js?ver=2.6.11" id="jet-vue-js"></script>
+<script type="text/javascript" id="jet-menu-public-scripts-js-extra">
+/* <![CDATA[ */
+var jetMenuPublicSettings = {"version":"2.4.8.1","ajaxUrl":"https:\/\/vtivision.com\/wp-admin\/admin-ajax.php","isMobile":"false","getElementorTemplateApiUrl":"https:\/\/vtivision.com\/wp-json\/jet-menu-api\/v2\/get-elementor-template-content","getBlocksTemplateApiUrl":"https:\/\/vtivision.com\/wp-json\/jet-menu-api\/v2\/get-blocks-template-content","menuItemsApiUrl":"https:\/\/vtivision.com\/wp-json\/jet-menu-api\/v2\/get-menu-items","restNonce":"e613e6c715","devMode":"false","wpmlLanguageCode":"","menuSettings":{"jetMenuRollUp":"true","jetMenuMouseleaveDelay":500,"jetMenuMegaWidthType":"container","jetMenuMegaWidthSelector":"","jetMenuMegaOpenSubType":"hover","jetMenuMegaAjax":"false"}};
+var CxCollectedCSS = {"type":"text\/css","title":"cx-collected-dynamic-style","css":".jet-mega-menu-item-60272 > .jet-mega-menu-mega-container {width:750px !important;; }"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-menu/assets/public/js/jet-menu-public-scripts.js?ver=2.4.8.1" id="jet-menu-public-scripts-js"></script>
+<script type="text/javascript" id="jet-menu-public-scripts-js-after">
+/* <![CDATA[ */
+function CxCSSCollector(){"use strict";var t,e=window.CxCollectedCSS;void 0!==e&&((t=document.createElement("style")).setAttribute("title",e.title),t.setAttribute("type",e.type),t.textContent=e.css,document.head.appendChild(t))}CxCSSCollector();
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-popup/assets/js/lib/jet-plugins/jet-plugins.js?ver=2.0.20" id="jet-plugins-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-elements/assets/js/lib/anime-js/anime.min.js?ver=2.2.0" id="jet-anime-js-js"></script>
+<script type="text/javascript" id="jet-popup-frontend-js-extra">
+/* <![CDATA[ */
+var jetPopupData = {"version":"2.0.20","ajax_url":"https:\/\/vtivision.com\/wp-admin\/admin-ajax.php","isElementor":"true"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-popup/assets/js/jet-popup-frontend.js?ver=2.0.20" id="jet-popup-frontend-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.1.0" id="jupiterx-core-raven-smartmenus-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/lib/url-polyfill/url-polyfill.min.js?ver=1.1.7" id="jupiterx-core-raven-url-polyfill-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.4" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.4" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.35.4","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"nested-elements":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_editor_one":true,"import-export-customization":true},"urls":{"assets":"https:\/\/vtivision.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/vtivision.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/vtivision.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"d68a2fa54c"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page not found - VTI Vision","excerpt":""}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.4" id="elementor-frontend-js"></script>
+<script type="text/javascript" id="jet-elements-js-extra">
+/* <![CDATA[ */
+var jetElements = {"ajaxUrl":"https:\/\/vtivision.com\/wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"https:\/\/vtivision.com\/wp-json\/jet-elements-api\/v1\/elementor-template","devMode":"false","messages":{"invalidMail":"Please specify a valid e-mail"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.7.12.1" id="jet-elements-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-menu/includes/elementor/assets/public/js/widgets-scripts.js?ver=2.4.8.1" id="jet-menu-elementor-widgets-scripts-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jet-popup/includes/elementor/assets/js/jet-popup-elementor-frontend.js?ver=2.0.20" id="jet-popup-elementor-frontend-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-includes/js/wp-util.min.js?ver=6.8.3" id="wp-util-js"></script>
+<script type="text/javascript" id="jupiterx-core-raven-frontend-js-extra">
+/* <![CDATA[ */
+var ravenFormsTranslations = {"validation":{"required":"Please fill in this field","invalidEmail":"The value is not a valid email address","invalidPhone":"The value should only consist numbers and phone characters (-, +, (), etc)","invalidNumber":"The value is not a valid number","invalidMaxValue":"Value must be less than or equal to MAX_VALUE","invalidMinValue":"Value must be greater than or equal to MIN_VALUE"},"itiValidation":{"invalidCountryCode":"Invalid country code","tooShort":"Phone number is too short","tooLong":"Phone number is too long","areaCodeMissing":"Area code is required.","invalidLength":"Phone number has an invalid length","invalidGeneral":"Invalid phone number","forceMinLength":"Phone number must be more than X digits","typeMismatch":["Phone number must be of type: Fixed Line","Phone number must be of type: Mobile","Phone number must be of type: Fixed Line or Mobile","Phone number must be of type: Toll Free","Phone number must be of type: Premium Rate","Phone number must be of type: Shared Cost","Phone number must be of type: VOIP","Phone number must be of type: Personal Number","Phone number must be of type: Pager","Phone number must be of type: UAN","Phone number must be of type: Voicemail"]}};
+var ravenTools = {"nonce":"ed0f7d4ea4","activeElements":["animated-gradient","custom-attributes","custom-css","global-widget","motion_effects","preview-settings","role-manager","tooltip","wrapper-link","advanced-accordion","advanced-nav-menu","archive-description","archive-title","author-box","nav-menu","post-comments","post-content","post-meta","post-navigation","post-terms","post-title","search-form","site-logo","site-title","advanced-posts","alert","animated-heading","breadcrumbs","business-hours","button","call-to-action","carousel","categories","circle-progress","code-highlight","content-marquee","content-switch","countdown","counter","divider","flex-spacer","flip-box","forms","heading","hotspot","icon","image","image-comparison","image-gallery","inline-svg","lottie","media-gallery","photo-album","photo-roller","posts","price-list","pricing-table","progress-tracker","slider","social-share","sticky-media-scroller","table-of-contents","tabs","team-members","testimonial-marquee","text-marquee","video"],"globalTypography":{"fontFamily":"Poppins","fontSize":{"size":16,"unit":"px"},"lineHeight":{"size":20,"unit":"px"},"color":"#222222"},"wc":{"wcAjaxAddToCart":"","disableAjaxToCartInArchive":true},"maxFileUploadSize":"2097152"};
+var lottie_defaultAnimationUrl = {"url":"https:\/\/vtivision.com\/wp-content\/plugins\/jupiterx-core\/includes\/extensions\/raven\/assets\/animations\/default.json"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/jupiterx-core/includes/extensions/raven/assets/js/frontend.min.js?ver=6.8.3" id="jupiterx-core-raven-frontend-js"></script>
+<script type="text/javascript" src="https://vtivision.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js?ver=4.6.13" id="flatpickr-js"></script>
+<script type="text/javascript">
+		(function() {
+			document.body.className = document.body.className.replace('no-js','js');
+		}());
+	</script>
+	</body></html>

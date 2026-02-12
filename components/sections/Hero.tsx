@@ -51,7 +51,7 @@ export function Hero() {
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-8 leading-[1.1]">
             Environmental <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">Solutions</span> Through <br />
+            <span className="text-primary">Solutions</span> Through <br />
             Technology
           </h1>
           

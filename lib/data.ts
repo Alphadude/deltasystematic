@@ -725,25 +725,26 @@ export const coreValues = [
 ]
 
 export const partners = [
-  'ESRI Technology',
-  'Trimble',
-  'MDAFederal Inc',
-  'NaturalVue',
-  'Nigerian University Consultancy Services',
-  'Space Imaging',
+  { name: 'ESRI Technology', logo: '/logos/esri.jpg' },
+  { name: 'Trimble', logo: '/logos/trimble.png' },
+  { name: 'MDAFederal Inc', logo: '/placeholder-logo.svg' },
+  { name: 'NaturalVue', logo: '/logos/naturalvue.png' },
+  { name: 'Nigerian University Consultancy Services', logo: '/logos/unnconsult.png' },
+  { name: 'Space Imaging', logo: '/logos/spaceimaging.jpg' },
+  { name: 'IDEAL.com', logo: '/logos/ideal.jpg' },
 ]
 
 export const clients = [
-  'Shell (SPDC)',
-  'Total E&P',
-  'ExxonMobil',
-  'Addax Petroleum',
-  'Brass LNG',
-  'NDDC',
-  'National Population Commission (NPC)',
-  'Federal Airport Authority of Nigeria (FAAN)',
-  'UNICEM',
-  'PHCN',
+  { name: 'Shell (SPDC)', logo: '/logos/shell.jpg' },
+  { name: 'Total E&P', logo: '/logos/total.jpg' },
+  { name: 'ExxonMobil', logo: '/logos/exxonmobil.jpg' },
+  { name: 'Addax Petroleum', logo: '/logos/addax.jpg' },
+  { name: 'Brass LNG', logo: '/logos/brass.jpg' },
+  { name: 'NDDC', logo: '/logos/nddc.jpg' },
+  { name: 'National Population Commission (NPC)', logo: '/logos/npc.jpg' },
+  { name: 'Federal Airport Authority of Nigeria (FAAN)', logo: '/logos/faan.png' },
+  { name: 'UNICEM', logo: '/logos/unicem.png' },
+  { name: 'PHCN', logo: '/logos/phcn.png' },
 ]
 
 export const team = [

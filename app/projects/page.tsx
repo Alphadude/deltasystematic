@@ -36,7 +36,7 @@ export default function ProjectsPage() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-8">
-              Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">Impact</span> Portfolio
+              Our <span className="text-secondary">Impact</span> Portfolio
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               A showcase of over 25 years delivering specialized spatial products and strategic environmental solutions across diverse sectors.
@@ -87,14 +87,14 @@ export default function ProjectsPage() {
                     href={`/projects/${project.id}`}
                     className="group flex flex-col h-full bg-card/40 backdrop-blur-sm border border-border/50 rounded-3xl overflow-hidden hover:border-primary/30 transition-all duration-500 shadow-xl shadow-black/5"
                   >
-                    <div className="relative aspect-video overflow-hidden">
+                    <div className="relative aspect-video overflow-hidden bg-transparent">
                       <Image
                         src={project.image}
                         alt={project.title}
                         fill
-                        className="object-cover group-hover:scale-110 transition-transform duration-700"
+                        className="object-contain group-hover:scale-105 transition-transform duration-700"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-60" />
+                      <div className="absolute inset-0 bg-transparent opacity-0" />
                       <div className="absolute top-4 left-4">
                         <span className="px-4 py-1.5 bg-background/80 backdrop-blur-md rounded-full text-xs font-bold tracking-wider uppercase border border-white/10">
                           {project.category}
