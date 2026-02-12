@@ -452,7 +452,7 @@ export const projects = [
     year: '2017-2018',
     team: '10 specialists',
     color: 'secondary',
-    image: '/projects/gis_monitoring_project.svg',
+    image: '/projects/gis_monitoring_project.png',
   },
   {
     id: '12',
@@ -489,7 +489,7 @@ export const projects = [
     year: '2015',
     team: '14 field specialists',
     color: 'accent',
-    image: '/projects/phcn_network_project.svg',
+    image: '/projects/phcn_network_project.png',
   },
 ]
 
