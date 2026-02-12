@@ -40,7 +40,7 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
               className="w-64 h-26 relative flex items-center justify-center transition-all"
             >
               <Image 
-                src="/logo-transparent.png" 
+                src="/logo.webp" 
                 alt="Delta Systematics Logo" 
                 fill 
                 className="object-contain"

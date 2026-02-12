@@ -67,7 +67,7 @@ export default function ProjectDetailPage({ params }: { params: Promise<{ id: st
                   {project.category}
                 </span>
               </div>
-              <h1 className="text-4xl sm:text-6xl font-bold text-white tracking-tight text-balance max-w-4xl">
+              <h1 className="text-4xl sm:text-6xl font-bold text-black tracking-tight text-balance max-w-4xl">
                 {project.title}
               </h1>
             </motion.div>

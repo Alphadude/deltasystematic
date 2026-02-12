@@ -726,9 +726,6 @@ export const coreValues = [
 
 export const partners = [
   { name: 'ESRI Technology', logo: '/logos/esri.jpg' },
-  { name: 'Trimble', logo: '/logos/trimble.png' },
-  { name: 'MDAFederal Inc', logo: '/placeholder-logo.svg' },
-  { name: 'NaturalVue', logo: '/logos/naturalvue.png' },
   { name: 'Nigerian University Consultancy Services', logo: '/logos/unnconsult.png' },
   { name: 'Space Imaging', logo: '/logos/spaceimaging.jpg' },
   { name: 'IDEAL.com', logo: '/logos/ideal.jpg' },

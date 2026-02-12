@@ -14,7 +14,7 @@ export function Footer() {
             <Link href="/" className="flex items-center">
               <div className="w-64 h-31 relative flex items-center justify-center -ml-4">
                 <Image 
-                  src="/logo-transparent.png" 
+                  src="/logo.webp" 
                   alt="Delta Systematics Logo" 
                   fill 
                   className="object-contain"
@@ -44,16 +44,22 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2 group">
+                  <div className="w-1.5 h-1.5 rounded-full bg-border group-hover:bg-primary group-hover:scale-150 transition-all" />
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-foreground font-bold text-lg mb-8 uppercase tracking-widest text-xs">Our Services</h4>
             <ul className="space-y-4">
-              <li><Link href="#services" className="text-muted-foreground hover:text-primary transition-colors">GIS Solutions</Link></li>
-              <li><Link href="#services" className="text-muted-foreground hover:text-primary transition-colors">Remote Sensing</Link></li>
-              <li><Link href="#services" className="text-muted-foreground hover:text-primary transition-colors">Env Consulting</Link></li>
-              <li><Link href="#services" className="text-muted-foreground hover:text-primary transition-colors">Geospatial Analytics</Link></li>
+              <li><Link href="/services/gis-solutions" className="text-muted-foreground hover:text-primary transition-colors">GIS Solutions</Link></li>
+              <li><Link href="/services/remote-sensing" className="text-muted-foreground hover:text-primary transition-colors">Remote Sensing</Link></li>
+              <li><Link href="/services/environmental-consulting" className="text-muted-foreground hover:text-primary transition-colors">Env Consulting</Link></li>
+              <li><Link href="/services/geospatial-analytics" className="text-muted-foreground hover:text-primary transition-colors">Geospatial Analytics</Link></li>
             </ul>
           </div>
 
@@ -85,8 +91,8 @@ export function Footer() {
         <div className="pt-12 border-t border-border flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Delta Systematics Ltd. Powering environmental insights.</p>
           <div className="flex items-center gap-8">
-             <Link href="#" className="hover:text-primary transition-colors">Privacy Policy</Link>
-             <Link href="#" className="hover:text-primary transition-colors">Terms of Service</Link>
+             <Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+             <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link>
           </div>
         </div>
       </div>

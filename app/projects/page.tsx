@@ -92,7 +92,7 @@ export default function ProjectsPage() {
                         src={project.image}
                         alt={project.title}
                         fill
-                        className="object-contain group-hover:scale-105 transition-transform duration-700"
+                        className="object-cover group-hover:scale-105 transition-transform duration-700"
                       />
                       <div className="absolute inset-0 bg-transparent opacity-0" />
                       <div className="absolute top-4 left-4">
