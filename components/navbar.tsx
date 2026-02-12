@@ -38,12 +38,13 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
           <Link href="/" className="flex items-center group">
             <motion.div 
               whileHover={{ scale: 1.02 }}
-              className="w-64 h-26 relative flex items-center justify-center transition-all"
+              className="relative flex items-center justify-center transition-all"
             >
               <Image 
                 src="/logo.webp" 
                 alt="Delta Systematics Logo" 
-                fill 
+                width={282}
+                height={106}
                 className="object-contain"
                 priority
               />

@@ -12,11 +12,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
           <div className="space-y-8">
             <Link href="/" className="flex items-center">
-              <div className="w-64 h-31 relative flex items-center justify-center -ml-4">
+              <div className="relative flex items-center justify-center -ml-4">
                 <Image 
                   src="/logo.webp" 
                   alt="Delta Systematics Logo" 
-                  fill 
+                  width={282}
+                  height={106}
                   className="object-contain"
                 />
               </div>
