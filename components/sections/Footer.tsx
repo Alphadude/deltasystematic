@@ -89,7 +89,7 @@ export function Footer() {
         </div>
         
         <div className="pt-12 border-t border-border flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Delta Systematics Ltd. Powering environmental insights.</p>
+          <p suppressHydrationWarning>&copy; {new Date().getFullYear()} Delta Systematics Ltd. Powering environmental insights.</p>
           <div className="flex items-center gap-8">
              <Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
              <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link>

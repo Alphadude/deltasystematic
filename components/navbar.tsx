@@ -26,6 +26,7 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
 
   return (
     <nav
+      suppressHydrationWarning
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
           ? 'py-3 bg-background/80 backdrop-blur-xl border-b border-border/50 shadow-lg shadow-black/5'
