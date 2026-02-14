@@ -50,13 +50,13 @@ export function Hero() {
           </motion.div>
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-8 leading-[1.1]">
-            Environmental <br />
-            <span className="text-primary">Solutions</span> Through <br />
-            Technology
+            Pioneering <br />
+            <span className="text-primary">Multi-Sectoral</span> <br />
+            Solutions
           </h1>
           
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed text-balance">
-            Delta Systematics delivers cutting-edge spatial data and analytical services across Africa, transforming complex environmental challenges into sustainable opportunities.
+            Beyond environmental excellence, we deliver cutting-edge solutions in Fisheries & Food Security, Geofencing, Marketing, Social Engineering, and Sustainable Health Systems across Africa.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

@@ -1,4 +1,4 @@
-import { MapPin, Zap, Leaf, BarChart3, Phone, Mail } from 'lucide-react'
+import { MapPin, Zap, Leaf, BarChart3, Phone, Mail, Fish, Shield, Megaphone, Users, Activity } from 'lucide-react'
 
 export const siteConfig = {
   name: 'Delta Systematics',
@@ -44,6 +44,41 @@ export const services = [
     title: 'Geospatial Analytics',
     description: 'Data-driven insights for informed decision-making and strategic planning.',
     color: 'from-indigo-600 to-purple-600',
+  },
+  {
+    id: 'fisheries-food-security',
+    icon: Fish,
+    title: 'Fisheries & Food Security',
+    description: 'Innovative solutions for sustainable fisheries management and food security enhancement.',
+    color: 'from-blue-400 to-blue-600',
+  },
+  {
+    id: 'geofencing-geoframing',
+    icon: Shield,
+    title: 'Geofencing & Geoframing',
+    description: 'Advanced security and location-based intelligence through precise geospatial technology.',
+    color: 'from-slate-600 to-slate-800',
+  },
+  {
+    id: 'advertisement-marketing',
+    icon: Megaphone,
+    title: 'Advertisement & Marketing',
+    description: 'Targeted marketing strategies powered by geospatial data and behavior analysis.',
+    color: 'from-pink-500 to-rose-600',
+  },
+  {
+    id: 'social-engineering',
+    icon: Users,
+    title: 'Social Engineering',
+    description: 'Understanding social dynamics for sustainable community development and insights.',
+    color: 'from-orange-400 to-amber-600',
+  },
+  {
+    id: 'sustainable-health-systems',
+    icon: Activity,
+    title: 'Sustainable Health Systems',
+    description: 'Resilient health systems through data-driven planning and spatial health analytics.',
+    color: 'from-emerald-400 to-green-600',
   },
 ]
 
@@ -703,6 +738,71 @@ export const detailedServices = [
       'Flare Pit Closure',
     ],
     color: 'from-yellow-500 to-orange-700',
+  },
+  {
+    id: 'fisheries-food-security',
+    icon: Fish,
+    title: 'Fisheries & Food Security',
+    description: 'Innovative solutions for sustainable fisheries management and food security enhancement through spatial monitoring.',
+    features: [
+      'Sustainable catch monitoring',
+      'Habitat mapping',
+      'Resource management',
+      'Food security analytics',
+    ],
+    color: 'from-blue-400 to-blue-600',
+  },
+  {
+    id: 'geofencing-geoframing',
+    icon: Shield,
+    title: 'Geofencing & Geoframing',
+    description: 'Advanced security and location-based intelligence through precise geofencing and geoframing technologies.',
+    features: [
+      'Border security systems',
+      'Asset tracking',
+      'Location-based alerts',
+      'Security infrastructure',
+    ],
+    color: 'from-slate-600 to-slate-800',
+  },
+  {
+    id: 'advertisement-marketing',
+    icon: Megaphone,
+    title: 'Advertisement & Marketing',
+    description: 'Targeted marketing and advertisement strategies powered by geospatial data and consumer behavior analysis.',
+    features: [
+      'Demographic profiling',
+      'Location-based marketing',
+      'Campaign performance tracking',
+      'Strategic ad placement',
+    ],
+    color: 'from-pink-500 to-rose-600',
+  },
+  {
+    id: 'social-engineering',
+    icon: Users,
+    title: 'Social Engineering',
+    description: 'Understanding human systems and social dynamics for sustainable community development and behavioral insights.',
+    features: [
+      'Community impact assessment',
+      'Behavioral dynamics analysis',
+      'Social system modeling',
+      'Strategic communication',
+    ],
+    color: 'from-orange-400 to-amber-600',
+  },
+  {
+    id: 'sustainable-health-systems',
+    icon: Activity,
+    title: 'Sustainable Health Systems',
+    description: 'Developing resilient and sustainable health systems through data-driven planning and spatial health analytics.',
+    features: [
+      'Health resource mapping',
+      'Epidemiological modeling',
+      'Sustainable facility planning',
+      'Public health analytics',
+    ],
+    color: 'from-emerald-400 to-green-600',
   },
 ]
 

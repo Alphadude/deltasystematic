@@ -26,10 +26,10 @@ export default function Services() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-8">
-              Expert <span className="text-secondary">Geospatial</span> Services
+              Pioneering <span className="text-secondary">Multi-Sectoral</span> Solutions
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              Delivering high-precision spatial analysis and environmental consulting across Africa for over 25 years.
+              Delivering high-precision solutions in Fisheries, Security, Marketing, and Health Systems across Africa for over 25 years.
             </p>
           </motion.div>
         </div>
