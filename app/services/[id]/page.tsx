@@ -68,12 +68,23 @@ export default function ServicePage() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="relative aspect-video rounded-[2.5rem] overflow-hidden border border-border/50 shadow-2xl bg-card"
+              className="relative aspect-video rounded-[2.5rem] overflow-hidden border border-border/50 shadow-2xl bg-card group"
             >
-              <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-20`} />
-              <div className="absolute inset-0 flex items-center justify-center">
-                 <Icon size={120} className="text-foreground/10" />
-              </div>
+              {service.image ? (
+                <img 
+                  src={service.image} 
+                  alt={service.title} 
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+              ) : (
+                <>
+                  <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-20`} />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <Icon size={120} className="text-foreground/10" />
+                  </div>
+                </>
+              )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               <div className="absolute inset-x-8 bottom-8 p-8 bg-background/60 backdrop-blur-xl border border-white/10 rounded-3xl">
                  <p className="text-sm font-bold tracking-widest text-primary uppercase mb-2">Service Excellence</p>
                  <p className="text-lg font-medium text-foreground/90">Pioneering sustainable solutions since 1986.</p>
@@ -106,6 +117,27 @@ export default function ServicePage() {
                   ))}
                 </div>
               </div>
+
+              {service.experience && (
+                <div>
+                  <h2 className="text-3xl font-bold mb-8 tracking-tight">Institutional Experience</h2>
+                  <div className="space-y-4">
+                    {service.experience.map((exp: string, index: number) => (
+                      <motion.div
+                        key={index}
+                        initial={{ opacity: 0, x: -10 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: index * 0.1 }}
+                        className="p-6 bg-muted/20 rounded-2xl border border-border/50 flex gap-4"
+                      >
+                        <div className="w-2 h-2 rounded-full bg-primary mt-2.5 shrink-0" />
+                        <span className="text-lg text-muted-foreground leading-relaxed">{exp}</span>
+                      </motion.div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               <div className="p-10 bg-muted/30 rounded-[2rem] border border-border/50">
                  <h3 className="text-2xl font-bold mb-6 tracking-tight flex items-center gap-3">

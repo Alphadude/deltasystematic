@@ -24,7 +24,7 @@ export function Services() {
             transition={{ delay: 0.1 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Comprehensive solutions designed to meet the complex needs of environmental and geospatial analysis in the modern era.
+            We combine scientific expertise, geospatial intelligence, regulatory alignment, and financial structuring to transform resource-based challenges into sustainable opportunities.
           </motion.p>
         </div>
 

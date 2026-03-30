@@ -26,10 +26,10 @@ export default function Services() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl sm:text-7xl font-bold tracking-tight mb-8">
-              Pioneering <span className="text-secondary">Multi-Sectoral</span> Solutions
+              Integrated <span className="text-secondary">Multidisciplinary</span> Solutions
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              Delivering high-precision solutions in Fisheries, Security, Marketing, and Health Systems across Africa for over 25 years.
+              Transforming environmental and resource-based challenges into bankable, sustainable opportunities through scientific expertise and geospatial intelligence.
             </p>
           </motion.div>
         </div>
@@ -73,6 +73,46 @@ export default function Services() {
                 </Link>
               )
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Integrated Strength Section */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-card/10 backdrop-blur-sm relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/5 rounded-full blur-[120px]" />
+        </div>
+        
+        <div className="relative max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4 tracking-tight text-white group-hover:text-primary transition-colors">Our <span className="text-primary italic">Integrated</span> Strength</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
+              Delta Systematics Ltd’s unique value proposition lies in our ability to converge multiple technical domains into a single integrated solution.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              { id: 'env', title: 'Environmental & Biodiversity', desc: 'Deep scientific expertise across terrestrial and aquatic ecosystems.' },
+              { id: 'geo', title: 'Geospatial Intelligence', desc: 'Advanced digital systems for precision mapping and analysis.' },
+              { id: 'reg', title: 'Regulatory & ESG', desc: 'Alignment with national and international safeguard frameworks.' },
+              { id: 'fin', title: 'Financial Modelling', desc: 'Structuring bankable, sustainable opportunities through valuation.' }
+            ].map((strength, i) => (
+              <motion.div
+                key={strength.id}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="p-8 bg-card rounded-3xl border border-border/50 text-center hover:border-primary/30 transition-all shadow-lg group"
+              >
+                <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mx-auto mb-6 group-hover:scale-110 transition-transform">
+                  <CheckCircle size={24} />
+                </div>
+                <h4 className="text-xl font-bold mb-3">{strength.title}</h4>
+                <p className="text-sm text-muted-foreground leading-relaxed">{strength.desc}</p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
