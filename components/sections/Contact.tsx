@@ -74,10 +74,10 @@ export function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="w-full px-8 py-5 bg-secondary text-secondary-foreground font-bold rounded-2xl hover:bg-secondary/90 hover:scale-[1.01] transition-all flex items-center justify-center gap-3 shadow-lg shadow-black/10"
+                  className="w-full px-8 py-5 bg-secondary text-secondary-foreground font-bold rounded-2xl hover:bg-secondary/90 hover:scale-[1.01] transition-all flex items-center justify-center gap-3 shadow-lg shadow-black/10 group"
                 >
                   Send Message
-                  <Send size={18} />
+                  <Send size={18} className="text-secondary-foreground/90 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                 </button>
               </form>
             </div>

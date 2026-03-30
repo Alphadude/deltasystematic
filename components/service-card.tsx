@@ -9,6 +9,7 @@ interface ServiceCardProps {
   title: string
   description: string
   color: string
+  textColor: string
   delay?: number
 }
 
@@ -17,6 +18,7 @@ export function ServiceCard({
   title,
   description,
   color,
+  textColor,
   delay = 0,
 }: ServiceCardProps) {
   const { ref, isVisible } = useScrollAnimation()
@@ -34,9 +36,22 @@ export function ServiceCard({
     >
       <div className="mb-4">
         <div
-          className={`w-12 h-12 rounded-lg bg-gradient-to-br ${color} flex items-center justify-center text-white group-hover:scale-110 transition-transform`}
+          className={cn(
+            "w-12 h-12 rounded-lg flex items-center justify-center transition-all duration-300 group-hover:scale-110",
+            `bg-gradient-to-br ${color} bg-opacity-10`, // Fallback
+            "bg-muted/50" // Base
+          )}
+          style={{ 
+            backgroundColor: `rgba(var(--primary-rgb), 0.1)`, // I'll use a safer approach below
+          }}
         >
-          <Icon size={24} />
+          {/* Overwriting the style for dynamic light background */}
+          <div className={cn(
+            "w-full h-full rounded-lg flex items-center justify-center bg-white/80 dark:bg-black/20 backdrop-blur-sm border border-border/50",
+            textColor
+          )}>
+            <Icon size={24} />
+          </div>
         </div>
       </div>
       <h3 className="text-lg font-semibold mb-2 text-foreground">{title}</h3>

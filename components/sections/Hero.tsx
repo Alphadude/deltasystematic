@@ -95,11 +95,11 @@ export function Hero() {
                   <div className="w-[60%] h-[60%] border-[1px] border-accent/20 rounded-full" />
                 </motion.div>
                 <div className="absolute inset-0 backdrop-blur-[2px]" />
-                <div className="z-20 flex flex-col items-center">
-                   <div className="w-24 h-24 bg-primary rounded-2xl flex items-center justify-center shadow-2xl mb-4 transform -rotate-12 border border-white/20">
-                      <span className="text-3xl font-bold text-white">DS</span>
+             <div className="z-20 flex flex-col items-center">
+                   <div className="w-24 h-24 bg-white/90 dark:bg-black/40 backdrop-blur-xl rounded-2xl flex items-center justify-center shadow-2xl mb-4 transform -rotate-12 border border-primary/20">
+                      <span className="text-3xl font-bold text-primary">DS</span>
                    </div>
-                   <div className="px-6 py-2 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full text-white font-medium text-sm">
+                   <div className="px-6 py-2 bg-primary/10 backdrop-blur-xl border border-primary/20 rounded-full text-primary font-bold text-sm">
                       GIS & Remote Sensing
                    </div>
                 </div>

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { services } from '@/lib/data'
 import Link from 'next/link'
+import { cn } from '@/lib/utils'
 
 export function Services() {
   return (
@@ -42,8 +43,12 @@ export function Services() {
                   className="group relative bg-card/50 backdrop-blur-sm rounded-3xl p-8 border border-border/50 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 h-full"
                 >
                   <div className="mb-8 relative">
-                    <div className={`w-16 h-16 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center text-white shadow-lg group-hover:scale-110 transition-transform duration-500`}>
-                      <Icon size={32} />
+                    <div className={cn(
+                      "w-16 h-16 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-500 bg-white/80 dark:bg-black/20 backdrop-blur-sm border border-border/50",
+                      service.textColor
+                    )}>
+                      <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-10`} />
+                      <Icon size={32} className="relative z-10" />
                     </div>
                     <div className={`absolute inset-0 blur-2xl opacity-20 bg-gradient-to-br ${service.color} -z-10`} />
                   </div>

@@ -8,6 +8,7 @@ import { detailedServices } from '@/lib/data'
 import { CheckCircle, ArrowLeft, ArrowRight, MessageSquare } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { cn } from '@/lib/utils'
 
 export default function ServicePage() {
   const { id } = useParams()
@@ -53,8 +54,12 @@ export default function ServicePage() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className={`w-20 h-20 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center text-white shadow-2xl mb-8`}>
-                <Icon size={40} />
+              <div className={cn(
+                "w-20 h-20 rounded-2xl flex items-center justify-center shadow-2xl mb-8 relative group overflow-hidden border border-border/50 bg-white/80 dark:bg-black/20 backdrop-blur-md",
+                service.textColor
+              )}>
+                <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-10`} />
+                <Icon size={40} className="relative z-10" />
               </div>
               <h1 className="text-5xl sm:text-6xl font-bold tracking-tight mb-8">
                 {service.title}

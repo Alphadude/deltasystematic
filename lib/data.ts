@@ -23,6 +23,7 @@ export const services = [
     title: 'Biological Capital & Natural Asset Development',
     description: 'Positioning ecosystems as measurable and monetisable assets within the bioeconomy and climate finance landscape.',
     color: 'from-emerald-500 to-teal-600',
+    textColor: 'text-emerald-600',
   },
   {
     id: 'environmental-esg',
@@ -30,6 +31,7 @@ export const services = [
     title: 'Environmental, Climate Change & ESG Advisory',
     description: 'Comprehensive ESIA, Biodiversity, Climate, and ESG services aligned with international safeguard frameworks.',
     color: 'from-blue-500 to-indigo-600',
+    textColor: 'text-blue-600',
   },
   {
     id: 'petroleum-gis',
@@ -37,6 +39,7 @@ export const services = [
     title: 'Petroleum GIS & Acreage Management',
     description: 'Advanced geospatial intelligence systems for upstream petroleum asset governance and regulatory support.',
     color: 'from-amber-500 to-orange-600',
+    textColor: 'text-amber-600',
   },
   {
     id: 'survey-mapping',
@@ -44,6 +47,7 @@ export const services = [
     title: 'Survey, Mapping & Geospatial Intelligence',
     description: 'Comprehensive surveying, remote sensing, and GIS services supporting planning and infrastructure development.',
     color: 'from-cyan-500 to-blue-600',
+    textColor: 'text-cyan-600',
   },
   {
     id: 'fisheries-blue-economy',
@@ -51,6 +55,7 @@ export const services = [
     title: 'Fisheries & Blue Economy Consulting',
     description: 'End-to-end advisory across the fisheries value chain, supporting investment and community development.',
     color: 'from-blue-400 to-blue-600',
+    textColor: 'text-blue-500',
   },
   {
     id: 'training-capacity',
@@ -58,6 +63,7 @@ export const services = [
     title: 'Training, Capacity Building & Technical Advisory',
     description: 'Specialised programmes building technical capacity across environmental and geospatial domains.',
     color: 'from-purple-500 to-indigo-600',
+    textColor: 'text-purple-600',
   },
 ]
 
@@ -533,6 +539,7 @@ export const detailedServices = [
       'NDDC Natural Asset Data Systems: Multi-sector environmental datasets for Niger Delta valuation.',
     ],
     color: 'from-emerald-500 to-teal-600',
+    textColor: 'text-emerald-600',
   },
   {
     id: 'environmental-esg',
@@ -553,6 +560,7 @@ export const detailedServices = [
       'ESG Monitoring Systems: field data collection integrating KoboCollect with regulatory reporting.',
     ],
     color: 'from-blue-500 to-indigo-600',
+    textColor: 'text-blue-600',
   },
   {
     id: 'petroleum-gis',
@@ -573,6 +581,7 @@ export const detailedServices = [
       'Geodetic Transformation Algorithms: Coordinate harmonisation ensuring legally defensible spatial boundaries.',
     ],
     color: 'from-amber-500 to-orange-600',
+    textColor: 'text-amber-600',
   },
   {
     id: 'survey-mapping',
@@ -593,6 +602,7 @@ export const detailedServices = [
       'Regional Mapping (Landsat & SPOT Integration): Large-scale resource assessment and regional planning.',
     ],
     color: 'from-cyan-500 to-blue-600',
+    textColor: 'text-cyan-600',
   },
   {
     id: 'fisheries-blue-economy',
@@ -613,6 +623,7 @@ export const detailedServices = [
       'Fisheries Intelligence Platforms: Digital traceability linking farmers to finance and offtake markets.',
     ],
     color: 'from-blue-400 to-blue-600',
+    textColor: 'text-blue-500',
   },
   {
     id: 'training-capacity',
@@ -632,6 +643,7 @@ export const detailedServices = [
       'ESG Implementation: Coaching on GRI, TNFD, and IFC Performance Standards.',
     ],
     color: 'from-purple-500 to-indigo-600',
+    textColor: 'text-purple-600',
   },
 ]
 
