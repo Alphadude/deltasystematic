@@ -10,6 +10,7 @@ interface FloatingBubbleProps {
   x?: string
   y?: string
   duration?: number
+  disableInternalAnim?: boolean
 }
 
 export function FloatingBubble({ 
@@ -18,56 +19,70 @@ export function FloatingBubble({
   delay = 0, 
   x = '50%', 
   y = '50%',
-  duration = 10
+  duration = 10,
+  disableInternalAnim = false
 }: FloatingBubbleProps) {
   return (
     <motion.div
-      initial={{ x: x, y: y, opacity: 0, scale: 0.8 }}
-      animate={{ 
+      initial={disableInternalAnim ? false : { x: x, y: y, opacity: 0, scale: 0.8 }}
+      animate={disableInternalAnim ? { opacity: 1, scale: 1 } : { 
         opacity: 1, 
         scale: 1,
         y: [`${parseFloat(y)}%`, `${parseFloat(y) - 5}%`, `${parseFloat(y)}%`],
         x: [`${parseFloat(x)}%`, `${parseFloat(x) + 2}%`, `${parseFloat(x)}%`],
       }}
-      transition={{
+      transition={disableInternalAnim ? { opacity: { duration: 1, delay }, scale: { duration: 1, delay } } : {
         opacity: { duration: 1, delay },
         scale: { duration: 1, delay },
         y: { duration, repeat: Infinity, ease: "easeInOut", delay },
         x: { duration: duration * 1.5, repeat: Infinity, ease: "easeInOut", delay },
       }}
-      className="absolute z-20 group"
+      className={disableInternalAnim ? "relative z-20 group" : "absolute z-20 group"}
       style={{ width: size, height: size }}
     >
       {/* The Bubble Effect */}
       <div className="relative w-full h-full flex items-center justify-center">
         {/* Main Glassy Circle */}
         <div 
-          className="absolute inset-0 rounded-full bg-white/5 backdrop-blur-[2px] border border-white/20 overflow-hidden"
+          className="absolute inset-0 rounded-full bg-white/[0.03] backdrop-blur-[4px] border border-white/30 overflow-hidden"
           style={{
-            boxShadow: 'inset 0 0 20px rgba(255, 255, 255, 0.1), 0 0 15px rgba(255, 255, 255, 0.05)',
+            boxShadow: `
+              inset 0 0 40px rgba(255, 255, 255, 0.1), 
+              inset 0 10px 20px rgba(255, 255, 255, 0.15),
+              0 0 25px rgba(255, 255, 255, 0.05),
+              0 15px 35px rgba(0, 0, 0, 0.2)
+            `,
           }}
         >
-          {/* Surface Shine (Soap Bubble style) */}
-          <div className="absolute top-[10%] left-[10%] w-[80%] h-[80%] rounded-full opacity-40 bg-gradient-to-br from-white/30 via-transparent to-transparent blur-[2px]" />
-          <div className="absolute bottom-[10%] right-[10%] w-[40%] h-[40%] rounded-full opacity-20 bg-gradient-to-tl from-emerald-500/30 via-transparent to-transparent blur-[2px]" />
+          {/* Top-Left Main Reflection (The bright "window" reflection) */}
+          <div className="absolute top-[8%] left-[15%] w-[40%] h-[30%] rounded-[100%] bg-white/40 blur-[4px] rotate-[-15deg] pointer-events-none" />
           
-          {/* Animated Reflection */}
+          {/* Outer Ring Highlight (Fresnel effect) */}
+          <div className="absolute inset-0 rounded-full border-[1.5px] border-t-white/40 border-l-white/30 border-r-white/5 border-b-white/10 pointer-events-none" />
+          
+          {/* Inner Depth Gradient (Darker bottom) */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.02] to-black/20 pointer-events-none" />
+          
+          {/* Subtle Color Tint (Based on background) */}
+          <div className="absolute -bottom-[20%] -right-[20%] w-[80%] h-[80%] rounded-full bg-emerald-500/20 blur-[30px] pointer-events-none" />
+
+          {/* Dynamic "Swirly" Reflection Overlay */}
           <motion.div
             animate={{
               rotate: 360
             }}
-            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-            className="absolute -inset-[50%] bg-gradient-conic from-transparent via-white/5 to-transparent pointer-events-none"
+            transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+            className="absolute -inset-[50%] bg-gradient-conic from-transparent via-white/5 to-transparent opacity-40 pointer-events-none"
           />
         </div>
 
-        {/* Content (Icon/Image) */}
-        <div className="relative z-30 transform group-hover:scale-110 transition-transform duration-500">
+        {/* Inner Content (The Icon/Graphic) */}
+        <div className="relative z-30 transform group-hover:scale-110 transition-transform duration-700 ease-out flex items-center justify-center">
           {children}
         </div>
 
-        {/* Hover Glow */}
-        <div className="absolute inset-0 rounded-full group-hover:bg-emerald-500/10 transition-colors duration-500" />
+        {/* Soft External Glow */}
+        <div className="absolute -inset-4 rounded-full bg-emerald-500/5 blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-1000 pointer-events-none" />
       </div>
     </motion.div>
   )

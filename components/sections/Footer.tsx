@@ -14,7 +14,7 @@ export function Footer() {
             <Link href="/" className="flex items-center">
               <div className="relative flex items-center justify-center -ml-4">
                 <Image 
-                  src="/logo.webp" 
+                  src="/logo-fixed.png" 
                   alt="Delta Systematics Logo" 
                   width={282}
                   height={106}

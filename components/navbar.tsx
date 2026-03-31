@@ -14,14 +14,37 @@ interface NavbarProps {
 export function Navbar({ isHomepage = true }: NavbarProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const [navTheme, setNavTheme] = useState<'light' | 'dark'>('dark')
 
   useEffect(() => {
+    // 1. Theme Detection
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const theme = entry.target.getAttribute('data-nav-theme') as 'light' | 'dark'
+            if (theme) setNavTheme(theme)
+          }
+        })
+      },
+      { threshold: 0.1, rootMargin: '-10% 0px -80% 0px' }
+    )
+
+    document.querySelectorAll('[data-nav-theme]').forEach((section) => {
+      observer.observe(section)
+    })
+
+    // 2. Scroll Detection
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20)
     }
 
     window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    
+    return () => {
+      observer.disconnect()
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   return (
@@ -31,7 +54,7 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
         isScrolled
           ? 'py-3 bg-background/80 backdrop-blur-xl border-b border-border/50 shadow-lg shadow-black/5'
           : 'py-6 bg-transparent'
-      }`}
+      } text-[#8dc440]`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
@@ -41,11 +64,11 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
               className="relative flex items-center justify-center transition-all"
             >
               <Image 
-                src="/logo.webp" 
+                src="/logo-fixed.png" 
                 alt="Delta Systematics Logo" 
                 width={282}
                 height={106}
-                className="object-contain"
+                className="object-contain transition-all duration-500"
                 priority
               />
             </motion.div>
@@ -58,19 +81,23 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
                 <Link
                   key={link.label}
                   href={link.href}
-                  className="text-[10px] font-black text-white/50 hover:text-emerald-400 transition-all relative group uppercase tracking-widest"
+                  className="text-[10px] font-black transition-all relative group uppercase tracking-widest text-[#8dc440]/80 hover:text-[#8dc440]"
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 bg-[#8dc440] group-hover:w-full"></span>
                 </Link>
               ))}
             </div>
             
-            <div className="h-6 w-[1px] bg-white/10" />
+            <div className="h-6 w-[1px] bg-white/10 transition-colors duration-500" />
             
             <Link
               href="/contact"
-              className="px-8 py-3 bg-white/5 backdrop-blur-xl border border-white/20 text-white rounded-full text-[10px] font-black tracking-widest hover:bg-white/10 hover:border-white/40 active:scale-95 transition-all uppercase"
+              className={`px-8 py-3 backdrop-blur-xl border font-black tracking-widest rounded-full text-[10px] active:scale-95 transition-all uppercase ${
+                navTheme === 'light'
+                  ? 'bg-[#8dc440]/5 border-[#8dc440]/20 text-[#8dc440] hover:bg-[#8dc440]/10'
+                  : 'bg-white/5 border-white/20 text-[#8dc440] hover:bg-white/10'
+              }`}
             >
               Get a Consult
             </Link>
@@ -79,7 +106,7 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-3 hover:bg-white/10 rounded-2xl transition-all text-white"
+            className="p-3 rounded-2xl transition-all md:hidden hover:bg-white/10 text-[#8dc440]"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -93,7 +120,11 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-t border-white/10 bg-[#020806]/95 backdrop-blur-2xl overflow-hidden"
+            className={`md:hidden border-t overflow-hidden transition-colors duration-500 ${
+              navTheme === 'light' 
+                ? 'bg-white/95 border-[#8dc440]/10' 
+                : 'bg-[#020806]/95 border-white/10 shadow-2xl'
+            } backdrop-blur-2xl`}
           >
             <div className="flex flex-col space-y-2 p-6">
               {navLinks.map((link) => (
@@ -101,7 +132,11 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
                   key={link.label}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="px-4 py-3 text-sm font-black text-white/70 hover:text-emerald-400 hover:bg-white/5 rounded-xl transition-all uppercase tracking-widest"
+                  className={`px-4 py-3 text-sm font-black rounded-xl transition-all uppercase tracking-widest ${
+                    navTheme === 'light'
+                      ? 'text-[#8dc440]/70 hover:text-[#8dc440] hover:bg-black/5'
+                      : 'text-[#8dc440]/70 hover:text-emerald-400 hover:bg-white/5'
+                  }`}
                 >
                   {link.label}
                 </Link>
@@ -110,7 +145,11 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
                 <Link
                   href="/contact"
                   onClick={() => setIsMenuOpen(false)}
-                  className="w-full px-8 py-4 bg-white/5 border border-white/20 text-white rounded-xl font-black flex items-center justify-center gap-2 uppercase tracking-widest"
+                  className={`w-full px-8 py-4 border rounded-xl font-black flex items-center justify-center gap-2 uppercase tracking-widest transition-all ${
+                    navTheme === 'light'
+                      ? 'bg-[#8dc440] text-white border-transparent'
+                      : 'bg-white/5 border-white/20 text-[#8dc440]'
+                  }`}
                 >
                   Get a Consult
                 </Link>

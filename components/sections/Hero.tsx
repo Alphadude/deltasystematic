@@ -5,11 +5,11 @@ import { ArrowRight, TreePine, Cloud, Orbit, Droplets } from 'lucide-react'
 import Link from 'next/link'
 import { TopoBackground } from '@/components/visuals/TopoBackground'
 import { FloatingBubble } from '@/components/visuals/FloatingBubble'
-import { PartnersBar } from './PartnersBar'
+import { BubblesPhysicsField } from '@/components/visuals/BubblesPhysicsField'
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen bg-[#020806] flex items-center overflow-hidden pt-20">
+    <section data-nav-theme="dark" className="relative min-h-screen bg-[#020806] flex items-center overflow-hidden pt-20">
       {/* Dark Gradient Background */}
       <div className="absolute inset-0 bg-radial-gradient from-[#061a15] via-[#020806] to-[#010504] z-0" />
       
@@ -57,50 +57,72 @@ export function Hero() {
           </motion.div>
 
           {/* Right Column - Floating Bubbles & Visual Elements */}
-          <div className="hidden lg:block lg:col-span-6 relative h-[600px]">
-            {/* Bubble 1: Mangrove Tree */}
-            <FloatingBubble x="10%" y="40%" size={180} delay={0}>
-               <div className="text-emerald-400 p-4">
-                  <TreePine size={64} strokeWidth={1} />
-               </div>
-            </FloatingBubble>
-            
-            {/* Bubble 2: CO2 Cloud */}
-            <FloatingBubble x="40%" y="15%" size={140} delay={0.5} duration={12}>
-               <div className="flex flex-col items-center justify-center text-white p-4">
-                  <div className="relative">
-                     <Cloud size={48} strokeWidth={1} className="opacity-50" />
-                     <span className="absolute inset-0 flex items-center justify-center text-[10px] font-bold mt-1">CO2</span>
-                  </div>
-               </div>
-            </FloatingBubble>
-
-            {/* Bubble 3: Oil Rig (Custom SVG) */}
-            <FloatingBubble x="65%" y="35%" size={160} delay={1.2} duration={14}>
-               <div className="text-white/60 p-4 flex flex-col items-center">
-                  <svg 
-                    width="48" 
-                    height="48" 
-                    viewBox="0 0 48 48" 
-                    fill="none" 
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M24 4L34 44H14L24 4Z" stroke="currentColor" strokeLinejoin="round" />
-                    <rect x="20" y="16" width="8" height="4" stroke="currentColor" />
-                    <rect x="18" y="24" width="12" height="4" stroke="currentColor" />
-                    <rect x="16" y="32" width="16" height="4" stroke="currentColor" />
-                    <circle cx="36" cy="18" r="3" fill="currentColor" fillOpacity="0.5" />
-                  </svg>
-                  <span className="text-[8px] uppercase tracking-tighter mt-2 font-bold opacity-30">Petroleum GIS</span>
-               </div>
-            </FloatingBubble>
-
-            {/* Bubble 4: Satellite / Orbit */}
-            <FloatingBubble x="75%" y="10%" size={150} delay={2} duration={11}>
-               <div className="text-emerald-300/60 p-4">
-                  <Orbit size={56} strokeWidth={0.5} />
-               </div>
-            </FloatingBubble>
+          <div className="hidden lg:block lg:col-span-6 relative h-[700px]">
+            <BubblesPhysicsField 
+              bubbles={[
+                {
+                  id: 1,
+                  size: 190,
+                  initialX: 15,
+                  initialY: 65,
+                  content: (
+                    <div className="text-emerald-400 p-4">
+                      <TreePine size={80} strokeWidth={1} className="drop-shadow-[0_0_15px_rgba(52,211,153,0.3)]" />
+                    </div>
+                  )
+                },
+                {
+                  id: 2,
+                  size: 150,
+                  initialX: 45,
+                  initialY: 30,
+                  content: (
+                    <div className="flex flex-col items-center justify-center text-white p-4">
+                      <div className="relative">
+                        <Cloud size={60} strokeWidth={1} className="opacity-80" />
+                        <span className="absolute inset-0 flex items-center justify-center text-[12px] font-bold mt-2 tracking-widest text-emerald-100">CO2</span>
+                      </div>
+                    </div>
+                  )
+                },
+                {
+                  id: 3,
+                  size: 170,
+                  initialX: 75,
+                  initialY: 60,
+                  content: (
+                    <div className="text-white/80 p-4 flex flex-col items-center">
+                      <svg 
+                        width="64" 
+                        height="64" 
+                        viewBox="0 0 48 48" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]"
+                      >
+                        <path d="M24 4L34 44H14L24 4Z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+                        <rect x="20" y="14" width="8" height="3" fill="currentColor" fillOpacity="0.3" stroke="currentColor" />
+                        <rect x="18" y="22" width="12" height="3" fill="currentColor" fillOpacity="0.3" stroke="currentColor" />
+                        <rect x="16" y="30" width="16" height="3" fill="currentColor" fillOpacity="0.3" stroke="currentColor" />
+                        <circle cx="38" cy="16" r="4" fill="currentColor" fillOpacity="0.5" className="animate-pulse" />
+                      </svg>
+                      <span className="text-[9px] uppercase tracking-[0.2em] mt-3 font-bold opacity-40">Petroleum GIS</span>
+                    </div>
+                  )
+                },
+                {
+                  id: 4,
+                  size: 160,
+                  initialX: 85,
+                  initialY: 15,
+                  content: (
+                    <div className="text-emerald-300 p-4">
+                      <Orbit size={70} strokeWidth={0.5} className="opacity-70" />
+                    </div>
+                  )
+                }
+              ]}
+            />
 
             {/* Extra glow elements */}
             <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-48 h-48 bg-emerald-500/10 blur-[100px] rounded-full pointer-events-none" />
@@ -108,8 +130,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Partners Bar */}
-      <PartnersBar />
     </section>
   )
 }

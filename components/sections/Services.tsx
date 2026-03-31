@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils'
 
 export function Services() {
   return (
-    <section id="services" className="py-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-muted/20">
+    <section id="services" data-nav-theme="light" className="py-32 px-4 sm:px-6 lg:px-8 relative overflow-hidden bg-muted/20">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="text-center mb-24">
           <motion.h2 

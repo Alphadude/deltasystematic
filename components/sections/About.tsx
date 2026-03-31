@@ -5,7 +5,7 @@ import { stats } from '@/lib/data'
 
 export function About() {
   return (
-    <section id="about" className="py-32 px-4 sm:px-6 lg:px-8 bg-muted/30 relative overflow-hidden">
+    <section id="about" data-nav-theme="light" className="py-32 px-4 sm:px-6 lg:px-8 bg-muted/30 relative overflow-hidden">
       {/* Background accents */}
       <div className="absolute top-1/2 left-0 w-64 h-64 bg-secondary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
