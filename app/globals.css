@@ -87,6 +87,18 @@ body {
   .animate-pulse-glow {
     animation: pulse-glow 2s ease-in-out infinite;
   }
+
+  .glass-morphism {
+    @apply bg-white/10 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.37)];
+  }
+
+  .glass-morphism-dark {
+    @apply bg-black/20 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+
+  .topo-glow {
+    filter: drop-shadow(0 0 8px rgba(34, 197, 94, 0.5));
+  }
 }
 
 @layer base {

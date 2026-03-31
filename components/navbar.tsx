@@ -58,28 +58,28 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
                 <Link
                   key={link.label}
                   href={link.href}
-                  className="text-sm font-bold text-foreground/60 hover:text-primary transition-all relative group"
+                  className="text-[10px] font-black text-white/50 hover:text-emerald-400 transition-all relative group uppercase tracking-widest"
                 >
                   {link.label}
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300"></span>
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-emerald-500 group-hover:w-full transition-all duration-300"></span>
                 </Link>
               ))}
             </div>
             
-            <div className="h-6 w-[1px] bg-border" />
+            <div className="h-6 w-[1px] bg-white/10" />
             
             <Link
               href="/contact"
-              className="px-8 py-3 bg-primary text-primary-foreground rounded-xl font-bold hover:bg-primary/90 hover:scale-[1.02] active:scale-[0.98] shadow-lg shadow-primary/20 transition-all"
+              className="px-8 py-3 bg-white/5 backdrop-blur-xl border border-white/20 text-white rounded-full text-[10px] font-black tracking-widest hover:bg-white/10 hover:border-white/40 active:scale-95 transition-all uppercase"
             >
-              Contact Us
+              Get a Consult
             </Link>
           </div>
 
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-3 hover:bg-muted rounded-2xl transition-all"
+            className="md:hidden p-3 hover:bg-white/10 rounded-2xl transition-all text-white"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -93,7 +93,7 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-t border-border bg-background overflow-hidden"
+            className="md:hidden border-t border-white/10 bg-[#020806]/95 backdrop-blur-2xl overflow-hidden"
           >
             <div className="flex flex-col space-y-2 p-6">
               {navLinks.map((link) => (
@@ -101,18 +101,18 @@ export function Navbar({ isHomepage = true }: NavbarProps) {
                   key={link.label}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="px-4 py-3 text-lg font-bold text-foreground/80 hover:text-primary hover:bg-primary/5 rounded-xl transition-all"
+                  className="px-4 py-3 text-sm font-black text-white/70 hover:text-emerald-400 hover:bg-white/5 rounded-xl transition-all uppercase tracking-widest"
                 >
                   {link.label}
                 </Link>
               ))}
               <div className="pt-4">
                 <Link
-                  href="#contact"
+                  href="/contact"
                   onClick={() => setIsMenuOpen(false)}
-                  className="w-full px-8 py-4 bg-primary text-primary-foreground rounded-xl font-bold flex items-center justify-center gap-2"
+                  className="w-full px-8 py-4 bg-white/5 border border-white/20 text-white rounded-xl font-black flex items-center justify-center gap-2 uppercase tracking-widest"
                 >
-                  Contact Us
+                  Get a Consult
                 </Link>
               </div>
             </div>

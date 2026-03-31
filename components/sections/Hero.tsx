@@ -1,129 +1,115 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, TreePine, Cloud, Orbit, Droplets } from 'lucide-react'
 import Link from 'next/link'
+import { TopoBackground } from '@/components/visuals/TopoBackground'
+import { FloatingBubble } from '@/components/visuals/FloatingBubble'
+import { PartnersBar } from './PartnersBar'
 
 export function Hero() {
   return (
-    <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden min-h-[90vh] flex items-center">
-      {/* Dynamic Background Elements */}
-      <div className="absolute inset-0 z-0">
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            rotate: [0, 90, 0],
-            opacity: [0.1, 0.2, 0.1],
-          }}
-          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-          className="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-primary rounded-full blur-[120px]"
-        />
-        <motion.div
-          animate={{
-            scale: [1, 1.3, 1],
-            rotate: [0, -90, 0],
-            opacity: [0.1, 0.15, 0.1],
-          }}
-          transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-          className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] bg-secondary rounded-full blur-[140px]"
-        />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03] pointer-events-none" />
-      </div>
+    <section className="relative min-h-screen bg-[#020806] flex items-center overflow-hidden pt-20">
+      {/* Dark Gradient Background */}
+      <div className="absolute inset-0 bg-radial-gradient from-[#061a15] via-[#020806] to-[#010504] z-0" />
+      
+      {/* Topographic Background */}
+      <TopoBackground />
 
-      <div className="relative max-w-7xl mx-auto z-10 w-full text-center lg:text-left grid lg:grid-cols-2 gap-12 items-center">
-        <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-        >
+      {/* Hero Content */}
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 w-full">
+        <div className="grid lg:grid-cols-12 gap-12 items-center">
+          
+          {/* Left Column - Text content */}
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-8 backdrop-blur-md"
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+            className="lg:col-span-6 text-left"
           >
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-            </span>
-            Pioneering environmental excellence
-          </motion.div>
-          
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-8 leading-[1.1]">
-            Pioneering <br />
-            <span className="text-primary">Multi-Sectoral</span> <br />
-            Solutions
-          </h1>
-          
-          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed text-balance">
-            Delivering integrated solutions across biological capital, environmental & ESG advisory, petroleum geospatial systems, and fisheries consulting for over 25 years.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Link
-              href="#contact"
-              className="px-8 py-4 bg-primary text-primary-foreground rounded-xl font-semibold shadow-xl shadow-primary/20 hover:shadow-primary/30 hover:scale-[1.02] transition-all flex items-center justify-center gap-2 group"
-            >
-              Start Your Project
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
-            <Link
-              href="#projects"
-              className="px-8 py-4 border-2 border-primary/20 bg-background/50 backdrop-blur-sm text-primary rounded-xl font-semibold hover:bg-primary/5 hover:border-primary/40 transition-all flex items-center justify-center shadow-lg"
-            >
-              Explore Our Work
-            </Link>
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9, rotate: 5 }}
-          animate={{ opacity: 1, scale: 1, rotate: 0 }}
-          transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
-          className="hidden lg:block relative"
-        >
-          <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border border-white/10 aspect-square max-w-md mx-auto">
-             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20" />
-             {/* Abstract GIS visual effect */}
-             <div className="absolute inset-0 flex items-center justify-center overflow-hidden">
-                <motion.div 
-                  animate={{ rotate: 360 }}
-                  transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
-                  className="w-[150%] h-[150%] border-[1px] border-primary/20 rounded-full flex items-center justify-center"
-                >
-                  <div className="w-[80%] h-[80%] border-[2px] border-dashed border-secondary/20 rounded-full flex items-center justify-center" />
-                  <div className="w-[60%] h-[60%] border-[1px] border-accent/20 rounded-full" />
-                </motion.div>
-                <div className="absolute inset-0 backdrop-blur-[2px]" />
-             <div className="z-20 flex flex-col items-center">
-                   <div className="w-24 h-24 bg-white/90 dark:bg-black/40 backdrop-blur-xl rounded-2xl flex items-center justify-center shadow-2xl mb-4 transform -rotate-12 border border-primary/20">
-                      <span className="text-3xl font-bold text-primary">DS</span>
-                   </div>
-                   <div className="px-6 py-2 bg-primary/10 backdrop-blur-xl border border-primary/20 rounded-full text-primary font-bold text-sm">
-                      GIS & Remote Sensing
-                   </div>
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white mb-8 leading-[1] tracking-tighter uppercase max-w-2xl">
+              'TRANSFORMING <br />
+              NATURAL ASSETS <br />
+              INTO BANKABLE <br />
+              INTELLIGENCE.'
+            </h1>
+            
+            <p className="text-lg md:text-xl text-white/50 mb-12 max-w-xl leading-relaxed tracking-tight">
+              Integrated consulting for biological capital, ESG advisory, petroleum geospatial systems, and the blue economy.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-6">
+              <Link 
+                href="/projects" 
+                className="px-10 py-5 bg-[#0e3a31] text-emerald-400 font-bold tracking-widest rounded-full hover:bg-emerald-500 hover:text-white transition-all shadow-lg hover:shadow-emerald-500/20 active:scale-95 text-center text-xs uppercase"
+              >
+                Explore Our Assets
+              </Link>
+              <button 
+                className="px-10 py-5 bg-transparent border border-white/20 text-white font-bold tracking-widest rounded-full hover:bg-white/5 transition-all active:scale-95 text-center text-xs uppercase flex items-center justify-center gap-3"
+              >
+                Watch Case Study
+                <div className="w-6 h-6 rounded-full border border-white/20 flex items-center justify-center bg-white/10 group">
+                   <div className="w-0 h-0 border-t-4 border-t-transparent border-l-6 border-l-white border-b-4 border-b-transparent ml-0.5" />
                 </div>
-             </div>
+              </button>
+            </div>
+          </motion.div>
+
+          {/* Right Column - Floating Bubbles & Visual Elements */}
+          <div className="hidden lg:block lg:col-span-6 relative h-[600px]">
+            {/* Bubble 1: Mangrove Tree */}
+            <FloatingBubble x="10%" y="40%" size={180} delay={0}>
+               <div className="text-emerald-400 p-4">
+                  <TreePine size={64} strokeWidth={1} />
+               </div>
+            </FloatingBubble>
+            
+            {/* Bubble 2: CO2 Cloud */}
+            <FloatingBubble x="40%" y="15%" size={140} delay={0.5} duration={12}>
+               <div className="flex flex-col items-center justify-center text-white p-4">
+                  <div className="relative">
+                     <Cloud size={48} strokeWidth={1} className="opacity-50" />
+                     <span className="absolute inset-0 flex items-center justify-center text-[10px] font-bold mt-1">CO2</span>
+                  </div>
+               </div>
+            </FloatingBubble>
+
+            {/* Bubble 3: Oil Rig (Custom SVG) */}
+            <FloatingBubble x="65%" y="35%" size={160} delay={1.2} duration={14}>
+               <div className="text-white/60 p-4 flex flex-col items-center">
+                  <svg 
+                    width="48" 
+                    height="48" 
+                    viewBox="0 0 48 48" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M24 4L34 44H14L24 4Z" stroke="currentColor" strokeLinejoin="round" />
+                    <rect x="20" y="16" width="8" height="4" stroke="currentColor" />
+                    <rect x="18" y="24" width="12" height="4" stroke="currentColor" />
+                    <rect x="16" y="32" width="16" height="4" stroke="currentColor" />
+                    <circle cx="36" cy="18" r="3" fill="currentColor" fillOpacity="0.5" />
+                  </svg>
+                  <span className="text-[8px] uppercase tracking-tighter mt-2 font-bold opacity-30">Petroleum GIS</span>
+               </div>
+            </FloatingBubble>
+
+            {/* Bubble 4: Satellite / Orbit */}
+            <FloatingBubble x="75%" y="10%" size={150} delay={2} duration={11}>
+               <div className="text-emerald-300/60 p-4">
+                  <Orbit size={56} strokeWidth={0.5} />
+               </div>
+            </FloatingBubble>
+
+            {/* Extra glow elements */}
+            <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-48 h-48 bg-emerald-500/10 blur-[100px] rounded-full pointer-events-none" />
           </div>
-          {/* Floating tags */}
-          <motion.div 
-            animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute top-10 -right-4 bg-white/90 backdrop-blur p-4 rounded-xl shadow-xl border border-border/50 z-20"
-          >
-             <p className="text-sm font-bold text-secondary">25+ Years</p>
-             <p className="text-xs text-muted-foreground">Regional Expertise</p>
-          </motion.div>
-          <motion.div 
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute -bottom-6 -left-4 bg-primary p-4 rounded-xl shadow-xl border border-white/10 z-20"
-          >
-             <p className="text-sm font-bold text-white">ESRI Partner</p>
-             <p className="text-xs text-white/70">Certified Excellence</p>
-          </motion.div>
-        </motion.div>
+        </div>
       </div>
+
+      {/* Partners Bar */}
+      <PartnersBar />
     </section>
   )
 }
