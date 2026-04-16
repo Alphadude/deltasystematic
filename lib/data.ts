@@ -1,4 +1,4 @@
-import { MapPin, Zap, Leaf, BarChart3, Phone, Mail, Fish, Shield, Megaphone, Users, Activity, Globe, Droplets, Compass, GraduationCap, Layers, TreePine, Waves } from 'lucide-react'
+import { MapPin, Zap, Leaf, BarChart3, Phone, Mail, Fish, Shield, Megaphone, Users, Activity, Globe, Droplets, Compass, GraduationCap, Layers, TreePine, Waves, Smartphone, Navigation, Calendar, Star, Map } from 'lucide-react'
 
 export const siteConfig = {
   name: 'Delta Systematics',
@@ -13,6 +13,7 @@ export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Services', href: '/services' },
   { label: 'Projects', href: '/projects' },
+  { label: 'Products', href: '/products' },
   { label: 'About', href: '/about' },
 ]
 
@@ -712,4 +713,82 @@ export const disciplines = [
   'Risk Analysts',
   'Soil Scientists',
   'Toxicologists',
+]
+
+export const products = [
+  {
+    id: 'getwell',
+    name: 'GetWell',
+    tagline: 'Medical Services Locator App',
+    headline: 'Nigeria\'s Intelligent Healthcare Finder',
+    description: 'GetWell is a geospatial mobile application developed by Delta Systematics Ltd that puts the full spectrum of Nigeria\'s healthcare system in your pocket. Loaded with live medical service data, the app connects users to thousands of public and private health institutions across Port Harcourt, Lagos, and Abuja—with smart location intelligence, real-time directions, and an integrated appointment booking system.',
+    shortDesc: 'A geospatial mobile app connecting Nigerians to healthcare facilities with real-time location intelligence, directions, and appointment booking.',
+    coverImage: '/products/getwell_cover.jpg',
+    screenshots: [
+      { src: '/products/getwell_1.jpg', caption: 'Home Screen — Browse healthcare categories' },
+      { src: '/products/getwell_3.jpg', caption: 'Hospitals Near You — Distance-sorted list view' },
+      { src: '/products/getwell_5.jpg', caption: 'Facility Profile — Contact info, hours & ratings' },
+      { src: '/products/getwell_6.jpg', caption: 'Map View — Visual pinpointing of facilities' },
+    ],
+    features: [
+      {
+        icon: Navigation,
+        title: 'Location Intelligence',
+        description: 'Instantly discover healthcare facilities near your current location with precise distance calculations and real-time positioning.',
+        color: 'from-emerald-500 to-teal-500',
+        textColor: 'text-emerald-500',
+      },
+      {
+        icon: Map,
+        title: 'Easy Directions',
+        description: 'Get turn-by-turn directions via car, bicycle, or on foot, complete with estimated travel times from any location.',
+        color: 'from-blue-500 to-indigo-500',
+        textColor: 'text-blue-500',
+      },
+      {
+        icon: Calendar,
+        title: 'Appointment Booking',
+        description: 'Book consultations directly with doctors and specialists, promoting seamless medical access across the region.',
+        color: 'from-violet-500 to-purple-600',
+        textColor: 'text-violet-500',
+      },
+      {
+        icon: Star,
+        title: 'Patient Ratings',
+        description: 'Access patient experience ratings and bed occupancy data benchmarked against established healthcare standards.',
+        color: 'from-amber-500 to-orange-500',
+        textColor: 'text-amber-500',
+      },
+      {
+        icon: Users,
+        title: 'Medical Tourism',
+        description: 'Enables cross-state healthcare planning for visitors and individuals seeking specialized services outside their home state.',
+        color: 'from-rose-500 to-pink-600',
+        textColor: 'text-rose-500',
+      },
+      {
+        icon: Smartphone,
+        title: 'Multi-Category Search',
+        description: 'Explore gynaecology, paediatrics, orthopaedics, fitness centres, diagnostic centres, and many more health categories.',
+        color: 'from-cyan-500 to-sky-500',
+        textColor: 'text-cyan-500',
+      },
+    ],
+    categories: [
+      'Ambulance Services', 'Cardiologist', 'Dental', 'Dermatologist',
+      'Diagnostic Centre', 'Ear Nose Throat', 'Eye Care', 'Fertility Clinic',
+      'Fitness Centre', 'Gastrointestinal', 'General Practitioner', 'Gynaecologist',
+      'Orthopaedics', 'Paediatrics', 'Pharmacy', 'Psychiatrist',
+    ],
+    cities: ['Port Harcourt', 'Lagos', 'Abuja'],
+    stats: [
+      { value: '3', label: 'Major Cities Covered' },
+      { value: '16+', label: 'Health Categories' },
+      { value: '100+', label: 'Facilities Listed' },
+      { value: '3-in-1', label: 'Locate, Navigate & Book' },
+    ],
+    color: 'from-emerald-500 to-teal-600',
+    accentColor: '#22c55e',
+    badgeColor: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
+  },
 ]
