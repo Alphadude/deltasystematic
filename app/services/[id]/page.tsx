@@ -48,56 +48,64 @@ export default function ServicePage() {
             Back to Services
           </Link>
 
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className={cn(
-                "w-20 h-20 rounded-2xl flex items-center justify-center shadow-2xl mb-8 relative group overflow-hidden border border-border/50 bg-white/80 dark:bg-black/20 backdrop-blur-md",
-                service.textColor
-              )}>
-                <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-10`} />
-                <Icon size={40} className="relative z-10" />
-              </div>
-              <h1 className="text-5xl sm:text-6xl font-bold tracking-tight mb-8">
-                {service.title}
-              </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                {service.description}
-              </p>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="relative aspect-video rounded-[2.5rem] overflow-hidden border border-border/50 shadow-2xl bg-card group"
-            >
-              {service.image ? (
-                <img 
-                  src={service.image} 
-                  alt={service.title} 
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              ) : (
-                <>
-                  <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-20`} />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <Icon size={120} className="text-foreground/10" />
-                  </div>
-                </>
-              )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-              <div className="absolute inset-x-8 bottom-8 p-8 bg-background/60 backdrop-blur-xl border border-white/10 rounded-3xl">
-                 <p className="text-sm font-bold tracking-widest text-primary uppercase mb-2">Service Excellence</p>
-                 <p className="text-lg font-medium text-foreground/90">Pioneering sustainable solutions since 1986.</p>
-              </div>
-            </motion.div>
+          <div className="text-center max-w-3xl mx-auto">
+            <div className={cn(
+              "w-20 h-20 mx-auto rounded-2xl flex items-center justify-center shadow-2xl mb-8 relative group overflow-hidden border border-border/50 bg-white/80 dark:bg-black/20 backdrop-blur-md",
+              service.textColor
+            )}>
+              <div className={`absolute inset-0 bg-gradient-to-br ${service.color} opacity-10`} />
+              <Icon size={40} className="relative z-10" />
+            </div>
+            <h1 className="text-5xl sm:text-6xl font-bold tracking-tight mb-8">
+              {service.title}
+            </h1>
+            <p className="text-xl text-muted-foreground leading-relaxed">
+              {service.description}
+            </p>
           </div>
         </div>
       </section>
+
+      {/* Gallery — Real document images */}
+      {service.gallery && service.gallery.length > 0 && (
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/10 border-y border-border/50">
+          <div className="max-w-7xl mx-auto">
+            <motion.h2
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-2xl font-bold mb-10 tracking-tight"
+            >
+              Work in <span className="text-primary italic">Action</span>
+            </motion.h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {service.gallery.map((item: { src: string; caption: string }, i: number) => (
+                <motion.div
+                  key={item.src}
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: i * 0.08 }}
+                  className={`group relative overflow-hidden rounded-2xl border border-border/50 bg-card shadow-md hover:shadow-xl hover:border-primary/30 transition-all duration-300 ${
+                    i === 0 ? 'md:col-span-2' : ''
+                  }`}
+                  style={{ aspectRatio: i === 0 ? '16/9' : '4/3' }}
+                >
+                  <img
+                    src={item.src}
+                    alt={item.caption}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-x-4 bottom-4 translate-y-3 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                    <p className="text-white text-xs font-semibold leading-snug drop-shadow">{item.caption}</p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Features & Details */}
       <section className="py-24 px-4 sm:px-6 lg:px-8">
