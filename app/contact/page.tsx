@@ -49,13 +49,19 @@ export default function ContactPage() {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate API call
+    // Construct the mailto link with form data
+    const mailtoLink = `mailto:info@deltasystematics.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
+    )}`;
+    
+    // Simulate a brief delay for UX before opening email client
     setTimeout(() => {
+      window.location.href = mailtoLink;
       setIsSubmitting(false)
       setSubmitted(true)
       setFormData({ name: '', email: '', phone: '', subject: '', message: '' })
       setTimeout(() => setSubmitted(false), 5000)
-    }, 1500)
+    }, 1000)
   }
 
   return (
