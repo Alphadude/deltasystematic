@@ -315,6 +315,7 @@ export default function GetWellPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.2 }}
+                className="flex flex-wrap items-center gap-4"
               >
                 <Link
                   href="/#contact"
@@ -322,6 +323,16 @@ export default function GetWellPage() {
                 >
                   Get Access
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </Link>
+
+                <Link
+                  href={(product as any).playStoreUrl || '#'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-muted hover:bg-muted/80 text-foreground font-bold rounded-2xl transition-all group border border-border/50"
+                >
+                  <Smartphone size={18} />
+                  Get it on Play Store
                 </Link>
               </motion.div>
             </div>
