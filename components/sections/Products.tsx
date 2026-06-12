@@ -139,13 +139,25 @@ export function Products() {
                 ))}
               </div>
 
-              <Link
-                href={`/products/${product.id}`}
-                className="inline-flex items-center gap-3 px-8 py-4 bg-emerald-500 text-white font-bold rounded-2xl hover:bg-emerald-600 transition-all group shadow-lg shadow-emerald-500/20"
-              >
-                Explore GetWell
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </Link>
+              <div className="flex flex-wrap items-center gap-4">
+                <Link
+                  href={`/products/${product.id}`}
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-emerald-500 text-white font-bold rounded-2xl hover:bg-emerald-600 transition-all group shadow-lg shadow-emerald-500/20"
+                >
+                  Explore GetWell
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </Link>
+
+                <Link
+                  href={(product as any).playStoreUrl || '#'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-muted hover:bg-muted/80 text-foreground font-bold rounded-2xl transition-all group shadow-lg border border-border/50"
+                >
+                  <Smartphone size={18} />
+                  Get it on Play Store
+                </Link>
+              </div>
             </div>
 
             {/* Right: Phone screenshots */}

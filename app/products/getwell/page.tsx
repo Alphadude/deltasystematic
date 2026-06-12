@@ -6,7 +6,7 @@ import { Footer } from '@/components/sections/Footer'
 import { products } from '@/lib/data'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowRight, MapPin, Check, ChevronLeft } from 'lucide-react'
+import { ArrowRight, MapPin, Check, ChevronLeft, Smartphone } from 'lucide-react'
 import { useState } from 'react'
 import { notFound } from 'next/navigation'
 
@@ -102,7 +102,7 @@ export default function GetWellPage() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 }}
-                className="flex items-center gap-4"
+                className="flex flex-wrap items-center gap-4"
               >
                 <Link
                   href="/#contact"
@@ -111,6 +111,17 @@ export default function GetWellPage() {
                   Request a Demo
                   <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </Link>
+
+                <Link
+                  href={(product as any).playStoreUrl || '#'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-muted hover:bg-muted/80 text-foreground font-bold rounded-2xl transition-all group border border-border/50"
+                >
+                  <Smartphone size={18} />
+                  Get it on Play Store
+                </Link>
+
                 <a
                   href="/#contact"
                   className="px-8 py-4 border border-border/50 rounded-2xl font-bold hover:border-emerald-500/30 transition-colors text-muted-foreground hover:text-foreground"

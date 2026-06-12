@@ -774,6 +774,7 @@ export const products = [
     headline: 'Nigeria\'s Intelligent Healthcare Finder',
     description: 'GetWell is a geospatial mobile application developed by Delta Systematics Ltd that puts the full spectrum of Nigeria\'s healthcare system in your pocket. Loaded with live medical service data, the app connects users to thousands of public and private health institutions across Port Harcourt, Lagos, and Abuja—with smart location intelligence, real-time directions, and an integrated appointment booking system.',
     shortDesc: 'A geospatial mobile app connecting Nigerians to healthcare facilities with real-time location intelligence, directions, and appointment booking.',
+    playStoreUrl: 'https://play.google.com/store/apps/details?id=com.deltasystematics.getwel',
     coverImage: '/products/getwell_cover.jpg',
     screenshots: [
       { src: '/products/getwell_1.jpg', caption: 'Home Screen — Browse healthcare categories' },
