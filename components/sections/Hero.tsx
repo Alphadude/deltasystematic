@@ -38,17 +38,17 @@ export function Hero() {
               Environmental Intelligence, Petroleum GIS & Asset Management. Mapping opportunities, supporting licensing success, and creating long-term asset value.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-5">
+            <div className="flex flex-col sm:flex-row gap-5 pt-2">
               <Link 
                 href="/environmental-petroleum-gis-asset-management" 
-                className="px-8 py-4.5 bg-[#8dc440] text-black font-extrabold tracking-widest rounded-full hover:bg-emerald-400 transition-all shadow-lg hover:shadow-[#8dc440]/20 active:scale-95 text-center text-xs uppercase flex items-center justify-center gap-2"
+                className="px-10 sm:px-12 py-5 sm:py-6 bg-[#8dc440] text-black font-black tracking-widest rounded-full hover:bg-emerald-400 transition-all duration-300 shadow-xl shadow-[#8dc440]/25 hover:shadow-2xl hover:shadow-[#8dc440]/40 hover:scale-[1.03] active:scale-95 text-center text-sm sm:text-base uppercase flex items-center justify-center gap-3 group"
               >
                 Petroleum Asset Intelligence
-                <ArrowRight size={15} />
+                <ArrowRight size={20} className="group-hover:translate-x-1.5 transition-transform duration-300" />
               </Link>
               <Link 
                 href="/projects" 
-                className="px-8 py-4.5 bg-transparent border border-white/20 text-white font-bold tracking-widest rounded-full hover:bg-white/5 transition-all active:scale-95 text-center text-xs uppercase flex items-center justify-center gap-2"
+                className="px-8 sm:px-10 py-5 sm:py-6 bg-white/[0.04] border border-white/25 hover:border-white/50 text-white font-extrabold tracking-widest rounded-full hover:bg-white/10 transition-all duration-300 hover:scale-[1.02] active:scale-95 text-center text-sm sm:text-base uppercase flex items-center justify-center gap-2"
               >
                 Explore Projects
               </Link>
