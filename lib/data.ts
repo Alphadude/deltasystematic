@@ -5,8 +5,19 @@ export const siteConfig = {
   description: 'Environmental Intelligence, Petroleum GIS & Asset Management',
   tagline: 'Mapping opportunities. Supporting licensing success. Creating long-term asset value.',
   contact: {
-    phones: ['+234 803 338 6435', '+234 803 308 8811'],
+    phones: ['+234 803 338 6435', '+234 803 736 1230', '+234 805 524 6065'],
+    abujaPhones: ['+234 806 090 2464', '+234 706 919 6287'],
     email: 'info@deltasystematics.com',
+    offices: {
+      portHarcourt: {
+        address: '36 Onne Road G.R.A Phase II, Rivers State, Nigeria',
+        phones: ['08037361230', '08055246065', '08033386435'],
+      },
+      abuja: {
+        address: '18 Ben Ayade Crescent Jahi, Abuja',
+        phones: ['08060902464', '07069196287'],
+      },
+    },
   },
 }
 

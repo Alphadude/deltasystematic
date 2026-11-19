@@ -11,13 +11,13 @@ const offices = [
   {
     name: 'Port Harcourt (Head Office)',
     address: '36 Onne Road G.R.A Phase II, Rivers State, Nigeria',
-    phone: ['08033386435', '08033088811', '084-880984'],
+    phone: ['08033386435', '08037361230', '08055246065', '084-880984'],
     email: 'ph-office@deltasystematics.com'
   },
   {
     name: 'Abuja Office',
-    address: '8 Abriba Close, Area 7, Abuja',
-    phone: ['08034316911'],
+    address: '18 Ben Ayade Crescent Jahi, Abuja',
+    phone: ['08060902464', '07069196287'],
     email: 'abuja@deltasystematics.com'
   },
   {
@@ -48,12 +48,12 @@ export default function ContactPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
+
     // Construct the mailto link with form data
     const mailtoLink = `mailto:info@deltasystematics.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
     )}`;
-    
+
     // Simulate a brief delay for UX before opening email client
     setTimeout(() => {
       window.location.href = mailtoLink;
@@ -95,7 +95,7 @@ export default function ContactPage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
-            
+
             {/* Contact Info */}
             <div className="space-y-12">
               <motion.div
@@ -108,7 +108,7 @@ export default function ContactPage() {
                   Main Channels
                 </div>
                 <h2 className="text-4xl font-bold mb-8 tracking-tight">Direct Contact</h2>
-                
+
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div className="p-8 bg-card/40 backdrop-blur-sm border border-border/50 rounded-3xl hover:border-primary/30 transition-all duration-300">
                     <div className="w-12 h-12 rounded-2xl bg-secondary/10 flex items-center justify-center text-secondary mb-6">

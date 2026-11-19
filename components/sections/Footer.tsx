@@ -13,9 +13,9 @@ export function Footer() {
           <div className="space-y-8">
             <Link href="/" className="flex items-center">
               <div className="relative flex items-center justify-center -ml-4">
-                <Image 
-                  src="/logo-fixed.png" 
-                  alt="Delta Systematics Logo" 
+                <Image
+                  src="/logo-fixed.png"
+                  alt="Delta Systematics Logo"
                   width={282}
                   height={106}
                   className="object-contain"
@@ -26,11 +26,11 @@ export function Footer() {
               Delta Systematics Ltd is a leading scientific firm providing Environmental Intelligence, Petroleum GIS & Asset Management.
             </p>
             <div className="flex items-center gap-4">
-               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                 <a key={i} href="#" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary hover:bg-primary/5 transition-all">
-                   <Icon size={18} />
-                 </a>
-               ))}
+              {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
+                <a key={i} href="#" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary hover:bg-primary/5 transition-all">
+                  <Icon size={18} />
+                </a>
+              ))}
             </div>
           </div>
 
@@ -72,8 +72,10 @@ export function Footer() {
                   <Phone size={18} className="text-primary" />
                 </div>
                 <div className="text-sm">
-                   <p className="font-bold text-foreground mb-1">Call Us</p>
-                   <p className="text-muted-foreground leading-relaxed">{siteConfig.contact.phones.join(', ')}</p>
+                  <p className="font-bold text-foreground mb-0.5">Port Harcourt (HQ)</p>
+                  <p className="text-muted-foreground text-xs leading-relaxed">0803 736 1230, 0805 524 6065, 0803 338 6435</p>
+                  <p className="font-bold text-foreground mt-2 mb-0.5">Abuja Office</p>
+                  <p className="text-muted-foreground text-xs leading-relaxed">0806 090 2464, 0706 919 6287</p>
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -81,20 +83,20 @@ export function Footer() {
                   <Mail size={18} className="text-primary" />
                 </div>
                 <div className="text-sm">
-                   <p className="font-bold text-foreground mb-1">Email Us</p>
-                   <p className="text-muted-foreground">{siteConfig.contact.email}</p>
+                  <p className="font-bold text-foreground mb-1">Email Us</p>
+                  <p className="text-muted-foreground">{siteConfig.contact.email}</p>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="pt-12 border-t border-border flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-muted-foreground">
           <p suppressHydrationWarning>&copy; {new Date().getFullYear()} Delta Systematics Ltd. Powering environmental insights.</p>
           <div className="flex items-center gap-8">
-             <Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
-             <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link>
-             <Link href="/data-deletion" className="hover:text-primary transition-colors">Account Deletion</Link>
+            <Link href="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+            <Link href="/terms-of-service" className="hover:text-primary transition-colors">Terms of Service</Link>
+            <Link href="/data-deletion" className="hover:text-primary transition-colors">Account Deletion</Link>
           </div>
         </div>
       </div>

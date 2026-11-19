@@ -10,7 +10,7 @@ export function Contact() {
       <div className="max-w-6xl mx-auto">
         <div className="bg-primary rounded-[3rem] overflow-hidden relative shadow-2xl shadow-primary/20">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-secondary/10 skew-x-12 translate-x-1/4 pointer-events-none" />
-          
+
           <div className="grid lg:grid-cols-2 relative z-10">
             <div className="p-10 sm:p-20 text-primary-foreground">
               <h2 className="text-4xl sm:text-5xl font-bold mb-8 leading-tight">Let's build a <br /><span className="text-secondary italic">sustainable</span> future</h2>
@@ -24,10 +24,14 @@ export function Contact() {
                     <Phone size={24} className="text-secondary" />
                   </div>
                   <div>
-                    <h3 className="font-bold mb-2">Technical Support</h3>
-                    <p className="text-primary-foreground/70">
-                      {siteConfig.contact.phones.join(' / ')}
-                    </p>
+                      <h3 className="font-bold mb-1">Port Harcourt (HQ)</h3>
+                      <p className="text-primary-foreground/80 text-sm">
+                        0803 736 1230 / 0805 524 6065 / 0803 338 6435
+                      </p>
+                      <h3 className="font-bold mt-3 mb-1">Abuja Office</h3>
+                      <p className="text-primary-foreground/80 text-sm">
+                        0806 090 2464 / 0706 919 6287
+                      </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-6">
