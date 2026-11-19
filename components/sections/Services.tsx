@@ -33,7 +33,7 @@ export function Services() {
           {services.map((service, index) => {
             const Icon = service.icon
             return (
-              <Link key={index} href={`/services/${service.id}`}>
+              <Link key={index} href={(service as any).href || `/services/${service.id}`}>
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}

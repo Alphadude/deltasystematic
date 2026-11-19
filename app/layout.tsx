@@ -14,9 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Delta Systematics | Environmental Consulting & GIS Solutions",
+  metadataBase: new URL("https://www.deltasystematics.com"),
+  title: "Delta Systematics | Environmental Intelligence, Petroleum GIS & Asset Management",
   description:
-    "Leading environmental consulting and GIS solutions provider in Nigeria. Specializing in remote sensing, mapping, and spatial data solutions.",
+    "Leading provider of Environmental Intelligence, Petroleum GIS & Asset Management. Mapping opportunities, supporting licensing success, and creating long-term asset value through spatial tenure, digital cadastre, and ESG advisory.",
   generator: "v0.app",
   icons: {
     icon: "/logo.webp",

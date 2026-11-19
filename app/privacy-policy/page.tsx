@@ -9,7 +9,7 @@ const sections = [
   {
     icon: Eye,
     title: '1. Information We Collect',
-    content: `Delta Systematics Ltd ("we", "our", or "us") collects information necessary to provide our environmental consulting, GIS, and geospatial services. This includes:`,
+    content: `Delta Systematics Ltd ("we", "our", or "us") collects information necessary to provide our Environmental Intelligence, Petroleum GIS & Asset Management services. This includes:`,
     items: [
       'Contact information (name, email, phone number, company name) provided when you reach out to us via our contact form or email.',
       'Project-related data shared by clients for the purpose of delivering our consulting, mapping, and environmental assessment services.',
@@ -22,11 +22,11 @@ const sections = [
     title: '2. How We Use Your Information',
     content: 'We use the information we collect for the following purposes:',
     items: [
-      'To provide, maintain, and improve our environmental consulting and GIS services.',
+      'To provide, maintain, and improve our Environmental Intelligence, Petroleum GIS & Asset Management services.',
       'To communicate with you about projects, service inquiries, and business matters.',
       'To process and fulfill contractual obligations with our clients.',
       'To send relevant updates about our services, industry developments, and company news (with your consent).',
-      'To comply with legal obligations and regulatory requirements in the environmental consulting sector.',
+      'To comply with legal obligations and regulatory requirements in the environmental and energy sector.',
       'To analyze website usage and improve user experience.',
     ],
   },

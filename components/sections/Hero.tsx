@@ -35,24 +35,23 @@ export function Hero() {
             </h1>
             
             <p className="text-lg md:text-xl text-white/50 mb-12 max-w-xl leading-relaxed tracking-tight">
-              Integrated consulting for biological capital, ESG advisory, petroleum geospatial systems, and the blue economy.
+              Environmental Intelligence, Petroleum GIS & Asset Management. Mapping opportunities, supporting licensing success, and creating long-term asset value.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6">
+            <div className="flex flex-col sm:flex-row gap-5">
+              <Link 
+                href="/environmental-petroleum-gis-asset-management" 
+                className="px-8 py-4.5 bg-[#8dc440] text-black font-extrabold tracking-widest rounded-full hover:bg-emerald-400 transition-all shadow-lg hover:shadow-[#8dc440]/20 active:scale-95 text-center text-xs uppercase flex items-center justify-center gap-2"
+              >
+                Petroleum Asset Intelligence
+                <ArrowRight size={15} />
+              </Link>
               <Link 
                 href="/projects" 
-                className="px-10 py-5 bg-[#0e3a31] text-emerald-400 font-bold tracking-widest rounded-full hover:bg-emerald-500 hover:text-white transition-all shadow-lg hover:shadow-emerald-500/20 active:scale-95 text-center text-xs uppercase"
+                className="px-8 py-4.5 bg-transparent border border-white/20 text-white font-bold tracking-widest rounded-full hover:bg-white/5 transition-all active:scale-95 text-center text-xs uppercase flex items-center justify-center gap-2"
               >
-                Explore Our Assets
+                Explore Projects
               </Link>
-              <button 
-                className="px-10 py-5 bg-transparent border border-white/20 text-white font-bold tracking-widest rounded-full hover:bg-white/5 transition-all active:scale-95 text-center text-xs uppercase flex items-center justify-center gap-3"
-              >
-                Watch Case Study
-                <div className="w-6 h-6 rounded-full border border-white/20 flex items-center justify-center bg-white/10 group">
-                   <div className="w-0 h-0 border-t-4 border-t-transparent border-l-6 border-l-white border-b-4 border-b-transparent ml-0.5" />
-                </div>
-              </button>
             </div>
           </motion.div>
 

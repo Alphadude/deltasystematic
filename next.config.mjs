@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  async rewrites() {
+    return [
+      {
+        source: '/services/petroleum-gis',
+        destination: '/environmental-petroleum-gis-asset-management',
+      },
+    ]
+  },
 }
 
 export default nextConfig

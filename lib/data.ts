@@ -2,7 +2,8 @@ import { MapPin, Zap, Leaf, BarChart3, Phone, Mail, Fish, Shield, Megaphone, Use
 
 export const siteConfig = {
   name: 'Delta Systematics',
-  description: 'Environmental Consulting & GIS Solutions',
+  description: 'Environmental Intelligence, Petroleum GIS & Asset Management',
+  tagline: 'Mapping opportunities. Supporting licensing success. Creating long-term asset value.',
   contact: {
     phones: ['+234 803 338 6435', '+234 803 308 8811'],
     email: 'info@deltasystematics.com',
@@ -35,12 +36,13 @@ export const services = [
     textColor: 'text-blue-600',
   },
   {
-    id: 'petroleum-gis',
+    id: 'environmental-petroleum-gis-asset-management',
     icon: Droplets,
-    title: 'Petroleum GIS & Acreage Management',
-    description: 'Advanced geospatial intelligence systems for upstream petroleum asset governance and regulatory support.',
+    title: 'Petroleum Asset Intelligence & Acreage Management',
+    description: 'Mapping opportunities. Supporting licensing success. Creating long-term asset value through spatial cadastre, bid advisory, and asset governance.',
     color: 'from-amber-500 to-orange-600',
     textColor: 'text-amber-600',
+    href: '/environmental-petroleum-gis-asset-management',
   },
   {
     id: 'survey-mapping',
@@ -521,6 +523,93 @@ export const stats = [
   { label: 'Enterprise Clients', value: '50+' },
 ]
 
+export const petroleumAssetIntelligence = {
+  title: 'Petroleum Asset Intelligence & Acreage Management',
+  subtitle: 'Mapping opportunities. Supporting licensing success. Creating long-term asset value.',
+  description: 'Delta Systematics Limited (DSL) delivers an integrated spatial advisory platform linking acreage screening, digital cadastre, competitive bid advisory, and regulatory asset governance into defensible, bankable decision-making.',
+  image: '/petroleum-asset-intelligence-dashboard.jpg',
+  metrics: [
+    { label: 'Licence Blocks', value: '4' },
+    { label: 'Prospects Identified', value: '12' },
+    { label: 'Exploration Wells', value: '28' },
+    { label: 'Acreage Coverage', value: '≈ 3,850 km²' },
+    { label: 'Water Depth Range', value: '50 – 1,000 m' },
+    { label: 'Est. GIIP (Gas)', value: '≈ 1.2 Tcf' },
+    { label: 'Est. STOIIP (Oil)', value: '≈ 420 MMbbl' },
+  ],
+  platformPillars: [
+    'Acreage intelligence and digital cadastre',
+    'Licensing-round and competitive bid advisory',
+    'Asset evaluation and investment intelligence',
+    'Regulatory and asset governance',
+    'Spatial tenure and licence administration',
+    'Boundary verification and compliance monitoring',
+    'Enterprise GIS and decision-support systems',
+  ],
+  modules: [
+    {
+      number: '01',
+      title: 'Acreage Intelligence & Digital Cadastre',
+      tagline: 'Trusted spatial foundations for petroleum concession and licence administration.',
+      coreServices: [
+        'Digital concession and petroleum cadastre systems',
+        'Block coordinate and datum validation',
+        'Licence polygons, tenure and ownership mapping',
+      ],
+      deliverables: [
+        'Digital acreage registry and GIS dashboards',
+        'Validated concession boundary maps and datasets',
+        'Satellite monitoring and spatial activity reports',
+      ],
+    },
+    {
+      number: '02',
+      title: 'Licensing & Competitive Bid Advisory',
+      tagline: 'From bid readiness and regulatory submissions to accountable decision-making.',
+      coreServices: [
+        'Opportunity and bid-readiness screening',
+        'Prequalification documentation and coordination',
+        'Technical bid packages and regulatory liaison',
+      ],
+      milestones: [
+        { year: '2022', text: 'Successful client bid win — identity withheld under NDA' },
+        { year: '2025', text: 'Successful client prequalification; further participation halted by an unforeseen financial emergency' },
+      ],
+      disclaimer: 'Claims and publication wording subject to DSL approval',
+    },
+    {
+      number: '03',
+      title: 'Asset Evaluation & Investment Intelligence',
+      tagline: 'Linking acreage screening, environmental intelligence and commercial decisions.',
+      coreServices: [
+        'Acreage and opportunity screening',
+        'GIS-based infrastructure and environmental constraints analysis',
+        'Technical due-diligence coordination',
+      ],
+      deliverables: [
+        'Prospect and asset screening maps',
+        'Investment risk and opportunity briefs',
+        'Acquisition and portfolio review support',
+      ],
+    },
+    {
+      number: '04',
+      title: 'Regulatory GIS & Asset Governance',
+      tagline: 'Supporting transparent, traceable and technically defensible petroleum resource management.',
+      coreServices: [
+        'Enterprise geodatabases and exploration data integration',
+        'Spatial compliance and operational footprint monitoring',
+        'Boundary verification and regulatory reporting',
+      ],
+      experience: [
+        'Mining cadastre and geodetic transformation projects',
+        'Satellite mapping and boundary delineation',
+        'Niger Delta multi-sector enterprise geodatabase',
+      ],
+    },
+  ],
+}
+
 export const detailedServices = [
   {
     id: 'biological-capital',
@@ -586,28 +675,104 @@ export const detailedServices = [
   {
     id: 'petroleum-gis',
     icon: Droplets,
-    image: '/services/gis-network-mapping.png',
+    image: '/petroleum-asset-intelligence-dashboard.jpg',
     gallery: [
-      { src: '/services/gis-network-mapping.png', caption: 'GIS Network Mapping — Ducts & Dark Fibre' },
-      { src: '/services/geofencing-geo-framing.png', caption: 'Geofencing & Geoframing Intelligence' },
-      { src: '/services/petroleum-gis.png', caption: 'Petroleum GIS & Acreage Management' },
+      { src: '/petroleum-asset-intelligence-dashboard.jpg', caption: 'Petroleum Asset Intelligence & Acreage Management — GIS Concession Dashboard' },
+      { src: '/services/petroleum-gis.png', caption: 'Petroleum Concession & Exploration Geospatial Systems' },
+      { src: '/services/geofencing-geo-framing.png', caption: 'Geofencing & Geoframing Spatial Intelligence' },
+      { src: '/services/gis-network-mapping.png', caption: 'GIS Network Mapping — Conduits & Corridors' },
     ],
-    title: 'Petroleum GIS & Acreage Management',
-    description: 'DSL provides advanced geospatial intelligence systems for upstream petroleum asset governance. From GIS network mapping of ducts and dark fibre to geofencing and geoframing capabilities, we deliver precision systems that enhance transparency and strengthen regulatory oversight.',
+    title: 'Petroleum Asset Intelligence & Acreage Management',
+    tagline: 'Mapping opportunities. Supporting licensing success. Creating long-term asset value.',
+    description: 'DSL delivers an integrated spatial advisory platform that links acreage intelligence, digital petroleum cadastre, competitive bid advisory, and regulatory asset governance into defensible, bankable decision-making.',
+    platformPillars: [
+      'Acreage intelligence and digital cadastre',
+      'Licensing-round and competitive bid advisory',
+      'Asset evaluation and investment intelligence',
+      'Regulatory and asset governance',
+      'Spatial tenure and licence administration',
+      'Boundary verification and compliance monitoring',
+      'Enterprise GIS and decision-support systems',
+    ],
     features: [
-      'GIS network mapping — ducts and dark fibre infrastructure',
-      'Geofencing and geoframing capabilities',
-      'Petroleum cadastre system design and implementation',
-      'Block coordinate validation and licence boundary management',
-      'Spatial integration of seismic, wells, and production data',
-      'Acreage monitoring and compliance systems',
-      'Licensing round GIS support and data room development',
+      'Digital concession and petroleum cadastre systems',
+      'Block coordinate and geodetic datum validation',
+      'Licence polygons, tenure, and ownership mapping',
+      'Opportunity and bid-readiness screening',
+      'Technical bid packages and regulatory liaison',
+      'GIS-based infrastructure and environmental constraints analysis',
+      'Enterprise geodatabases and exploration data integration',
+      'Spatial compliance, boundary verification, and regulatory reporting',
+    ],
+    modules: [
+      {
+        number: '01',
+        title: 'Acreage Intelligence & Digital Cadastre',
+        tagline: 'Trusted spatial foundations for petroleum concession and licence administration.',
+        coreServices: [
+          'Digital concession and petroleum cadastre systems',
+          'Block coordinate and datum validation',
+          'Licence polygons, tenure and ownership mapping',
+        ],
+        deliverables: [
+          'Digital acreage registry and GIS dashboards',
+          'Validated concession boundary maps and datasets',
+          'Satellite monitoring and spatial activity reports',
+        ],
+      },
+      {
+        number: '02',
+        title: 'Licensing & Competitive Bid Advisory',
+        tagline: 'From bid readiness and regulatory submissions to accountable decision-making.',
+        coreServices: [
+          'Opportunity and bid-readiness screening',
+          'Prequalification documentation and coordination',
+          'Technical bid packages and regulatory liaison',
+        ],
+        milestones: [
+          { year: '2022', text: 'Successful client bid win — identity withheld under NDA' },
+          { year: '2025', text: 'Successful client prequalification; further participation halted by an unforeseen financial emergency' },
+        ],
+        disclaimer: 'Claims and publication wording subject to DSL approval',
+      },
+      {
+        number: '03',
+        title: 'Asset Evaluation & Investment Intelligence',
+        tagline: 'Linking acreage screening, environmental intelligence and commercial decisions.',
+        coreServices: [
+          'Acreage and opportunity screening',
+          'GIS-based infrastructure and environmental constraints analysis',
+          'Technical due-diligence coordination',
+        ],
+        deliverables: [
+          'Prospect and asset screening maps',
+          'Investment risk and opportunity briefs',
+          'Acquisition and portfolio review support',
+        ],
+      },
+      {
+        number: '04',
+        title: 'Regulatory GIS & Asset Governance',
+        tagline: 'Supporting transparent, traceable and technically defensible petroleum resource management.',
+        coreServices: [
+          'Enterprise geodatabases and exploration data integration',
+          'Spatial compliance and operational footprint monitoring',
+          'Boundary verification and regulatory reporting',
+        ],
+        experience: [
+          'Mining cadastre and geodetic transformation projects',
+          'Satellite mapping and boundary delineation',
+          'Niger Delta multi-sector enterprise geodatabase',
+        ],
+      },
     ],
     experience: [
-      'AIRTEL Nigeria Network Mapping: GIS mapping of all ducts and fibre networks across the South East Zone.',
-      'NUPRC Licensing Rounds: GIS-based block intelligence systems for spatial due diligence.',
-      'World Bank Solid Mineral Cadastre: Concession management for license allocation and tenure tracking.',
-      'Geodetic Transformation Algorithms: Coordinate harmonisation ensuring legally defensible spatial boundaries.',
+      'Licensing Milestone 2022: Successful client bid win in competitive licensing round (identity withheld under NDA).',
+      'Licensing Milestone 2025: Successful client prequalification and technical documentation coordination.',
+      'Mining Cadastre & Geodetic Transformation: Geodetic datum harmonisation ensuring legally defensible spatial concession boundaries.',
+      'Niger Delta Enterprise Geodatabase: Integrated petroleum asset layers, bathymetry, pipeline corridors, and environmental constraints.',
+      'Satellite Mapping & Boundary Delineation: Operational footprint monitoring and spatial tenure compliance reporting.',
+      'Infrastructure GIS Mapping: Precision spatial network mapping across major operational zones.',
     ],
     color: 'from-amber-500 to-orange-600',
     textColor: 'text-amber-600',

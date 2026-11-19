@@ -23,7 +23,7 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Delta Systematics Ltd is a leading scientific consulting firm providing environmental and GIS solutions.
+              Delta Systematics Ltd is a leading scientific firm providing Environmental Intelligence, Petroleum GIS & Asset Management.
             </p>
             <div className="flex items-center gap-4">
                {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -57,10 +57,10 @@ export function Footer() {
           <div>
             <h4 className="text-foreground font-bold text-lg mb-8 uppercase tracking-widest text-xs">Our Services</h4>
             <ul className="space-y-4">
-              <li><Link href="/services/gis-solutions" className="text-muted-foreground hover:text-primary transition-colors">GIS Solutions</Link></li>
-              <li><Link href="/services/remote-sensing" className="text-muted-foreground hover:text-primary transition-colors">Remote Sensing</Link></li>
-              <li><Link href="/services/environmental-consulting" className="text-muted-foreground hover:text-primary transition-colors">Env Consulting</Link></li>
-              <li><Link href="/services/geospatial-analytics" className="text-muted-foreground hover:text-primary transition-colors">Geospatial Analytics</Link></li>
+              <li><Link href="/environmental-petroleum-gis-asset-management" className="text-muted-foreground hover:text-primary transition-colors">Petroleum Asset Intelligence</Link></li>
+              <li><Link href="/services/biological-capital" className="text-muted-foreground hover:text-primary transition-colors">Biological Capital</Link></li>
+              <li><Link href="/services/environmental-esg" className="text-muted-foreground hover:text-primary transition-colors">Environmental & ESG</Link></li>
+              <li><Link href="/services/survey-mapping" className="text-muted-foreground hover:text-primary transition-colors">Survey & Geospatial</Link></li>
             </ul>
           </div>
 

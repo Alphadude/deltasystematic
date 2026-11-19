@@ -28,7 +28,7 @@ export function About() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
               >
-                Delta Systematics Ltd. is a scientific consulting firm specializing in providing a full range of environmental consulting services. With over 25 years of experience, we have successfully completed numerous projects across the Niger Delta region.
+                Delta Systematics Ltd. (DSL) is an integrated scientific firm specializing in Environmental Intelligence, Petroleum GIS & Asset Management. With over 25 years of experience, we deliver defensible spatial systems, digital acreage cadastre, and environmental advisory across Nigeria and the wider region.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}

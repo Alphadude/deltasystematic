@@ -28,7 +28,7 @@ export default function About() {
               Pioneering <span className="text-secondary">Scientific</span> Solutions
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-              Building a sustainable future through data-driven environmental consulting and advanced GIS technology.
+              Building a sustainable future through Environmental Intelligence, Petroleum GIS & Asset Management.
             </p>
           </motion.div>
         </div>
@@ -47,7 +47,7 @@ export default function About() {
               <h2 className="text-4xl font-bold tracking-tight">Our Legacy of Excellence</h2>
               <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                 <p>
-                  Delta Systematics Ltd. is a scientific consulting firm specializing in providing a full range of environmental consulting services to the commercial, industrial, private, and public market sectors. For more than 25 years, we've been at the forefront of addressing some of the toughest problems facing industry today.
+                  Delta Systematics Ltd. (DSL) is an integrated scientific firm specializing in Environmental Intelligence, Petroleum GIS & Asset Management across commercial, energy, industrial, and public sectors. For more than 25 years, we have been at the forefront of acreage screening, concession cadastre, environmental safeguarding, and asset valuation.
                 </p>
                 <p>
                   Today, we operate as a certified ESRI Business Partner and reseller for sub-Saharan Africa, acts as a clearinghouse for various Nigerian University Consultancy Services, and renders advanced Remote Sensing and digital GIS services.

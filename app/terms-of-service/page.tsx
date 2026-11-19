@@ -9,7 +9,7 @@ const sections = [
   {
     icon: Handshake,
     title: '1. Acceptance of Terms',
-    content: 'By accessing or using the services provided by Delta Systematics Ltd ("Company", "we", "our", or "us"), you agree to be bound by these Terms of Service. These terms govern your use of our website, environmental consulting services, GIS solutions, geospatial analytics, and all related professional services.',
+    content: 'By accessing or using the services provided by Delta Systematics Ltd ("Company", "we", "our", or "us"), you agree to be bound by these Terms of Service. These terms govern your use of our website, Environmental Intelligence, Petroleum GIS & Asset Management services, geospatial analytics, and all related professional services.',
     items: [
       'These Terms constitute a legally binding agreement between you and Delta Systematics Ltd.',
       'If you are entering into these Terms on behalf of an organization, you represent that you have the authority to bind that organization.',
@@ -19,7 +19,7 @@ const sections = [
   {
     icon: FileText,
     title: '2. Scope of Services',
-    content: 'Delta Systematics Ltd provides professional environmental consulting and geospatial services, including but not limited to:',
+    content: 'Delta Systematics Ltd provides professional Environmental Intelligence, Petroleum GIS & Asset Management services, including but not limited to:',
     items: [
       'Geographic Information Systems (GIS) mapping, analysis, and database development.',
       'Remote sensing, satellite imagery processing, and environmental monitoring.',
@@ -126,7 +126,7 @@ export default function TermsOfServicePage() {
               Terms of <span className="text-secondary">Service</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              These terms govern your use of Delta Systematics Ltd&apos;s professional environmental consulting and geospatial services.
+              These terms govern your use of Delta Systematics Ltd&apos;s professional Environmental Intelligence, Petroleum GIS & Asset Management services.
             </p>
             <p className="text-sm text-muted-foreground mt-6">Last Updated: February 12, 2026</p>
           </motion.div>

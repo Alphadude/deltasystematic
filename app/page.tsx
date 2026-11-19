@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/navbar'
 import { Hero } from '@/components/sections/Hero'
+import { PetroleumAssetIntelligenceSection } from '@/components/sections/PetroleumAssetIntelligenceSection'
 import { Services } from '@/components/sections/Services'
 import { Products } from '@/components/sections/Products'
 import { Projects } from '@/components/sections/Projects'
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="min-h-screen bg-background text-foreground selection:bg-primary/20">
       <Navbar />
       <Hero />
+      <PetroleumAssetIntelligenceSection />
       <Services />
       <Products />
       <Projects />
