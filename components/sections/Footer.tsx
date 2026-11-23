@@ -57,6 +57,7 @@ export function Footer() {
           <div>
             <h4 className="text-foreground font-bold text-lg mb-8 uppercase tracking-widest text-xs">Our Services</h4>
             <ul className="space-y-4">
+              <li><Link href="/licensing-round-2026" className="text-primary font-bold hover:text-primary transition-colors flex items-center gap-1.5"><span className="w-1.5 h-1.5 rounded-full bg-primary" />Licensing Round 2026</Link></li>
               <li><Link href="/environmental-petroleum-gis-asset-management" className="text-muted-foreground hover:text-primary transition-colors">Petroleum Asset Intelligence</Link></li>
               <li><Link href="/services/biological-capital" className="text-muted-foreground hover:text-primary transition-colors">Biological Capital</Link></li>
               <li><Link href="/services/environmental-esg" className="text-muted-foreground hover:text-primary transition-colors">Environmental & ESG</Link></li>

@@ -8,6 +8,7 @@ export const siteConfig = {
     phones: ['+234 803 338 6435', '+234 803 736 1230', '+234 805 524 6065'],
     abujaPhones: ['+234 806 090 2464', '+234 706 919 6287'],
     email: 'info@deltasystematics.com',
+    licensingEmail: 'licensing2026@deltasystematics.com',
     offices: {
       portHarcourt: {
         address: '36 Onne Road G.R.A Phase II, Rivers State, Nigeria',
@@ -23,6 +24,7 @@ export const siteConfig = {
 
 export const navLinks = [
   { label: 'Home', href: '/' },
+  { label: 'Licensing 2026', href: '/licensing-round-2026' },
   { label: 'Services', href: '/services' },
   { label: 'Projects', href: '/projects' },
   { label: 'Products', href: '/products' },
